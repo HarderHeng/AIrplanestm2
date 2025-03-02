@@ -1,0 +1,3 @@
+/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles/Airplane.dir
+/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles/edit_cache.dir
+/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles/rebuild_cache.dir

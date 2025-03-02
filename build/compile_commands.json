@@ -1,0 +1,322 @@
+[
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/app_hooks.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/app_hooks.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/app_hooks.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_core.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_core.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_core.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_cpu.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu_c.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu_c.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_dbg_r.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_dbg_r.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_flag.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_flag.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_flag.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_mbox.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mbox.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mbox.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_mem.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mem.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mem.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_mutex.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mutex.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mutex.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_q.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_q.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_q.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_sem.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_sem.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_sem.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_task.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_task.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_task.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_time.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_time.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_time.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/os_tmr.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_tmr.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_tmr.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/OS/Src/ucos_ii.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/ucos_ii.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/ucos_ii.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/misc.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/misc.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_adc.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_adc.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_can.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_can.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cec.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cec.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_crc.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_crc.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_aes.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_aes.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_des.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_des.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_tdes.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_tdes.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dac.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dac.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dbgmcu.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dbgmcu.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dcmi.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dcmi.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dfsdm.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dfsdm.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma2d.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma2d.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dsi.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dsi.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_exti.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_exti.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmc.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmc.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmpi2c.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmpi2c.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fsmc.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fsmc.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_gpio.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_gpio.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_md5.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_md5.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_sha1.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_sha1.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_i2c.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_i2c.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_it.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_it.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_iwdg.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_iwdg.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_lptim.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_lptim.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_ltdc.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_ltdc.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_pwr.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_pwr.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_qspi.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_qspi.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rcc.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rcc.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rng.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rng.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rtc.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rtc.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sai.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sai.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sdio.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sdio.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spdifrx.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spdifrx.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spi.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spi.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_syscfg.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_syscfg.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_tim.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_tim.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_usart.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_usart.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_wwdg.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_wwdg.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/system_stm32f4xx.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/system_stm32f4xx.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/USR/main.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/main.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/main.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/USR/mutex.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/mutex.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/mutex.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/USR/task.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/task.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/task.c"
+},
+{
+  "directory": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build",
+  "command": "/usr/bin/cc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Inc -I/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR  -pipe -std=c99 -Wall -Wextra -pedantic -std=gnu99 -o CMakeFiles/Airplane.dir/USR/test.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/test.c",
+  "file": "/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/test.c"
+}
+]
