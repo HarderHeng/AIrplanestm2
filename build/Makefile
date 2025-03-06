@@ -130,9 +130,249 @@ Airplane/fast:
 .PHONY : Airplane/fast
 
 # target to build an object file
-OS/Src/app_hooks.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/app_hooks.o
-.PHONY : OS/Src/app_hooks.o
+Driver/Src/Delay.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/Delay.obj
+.PHONY : Driver/Src/Delay.obj
+
+# target to preprocess a source file
+Driver/Src/Delay.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/Delay.i
+.PHONY : Driver/Src/Delay.i
+
+# target to generate assembly for a file
+Driver/Src/Delay.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/Delay.s
+.PHONY : Driver/Src/Delay.s
+
+# target to build an object file
+Driver/Src/HMC5883L.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.obj
+.PHONY : Driver/Src/HMC5883L.obj
+
+# target to preprocess a source file
+Driver/Src/HMC5883L.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.i
+.PHONY : Driver/Src/HMC5883L.i
+
+# target to generate assembly for a file
+Driver/Src/HMC5883L.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.s
+.PHONY : Driver/Src/HMC5883L.s
+
+# target to build an object file
+Driver/Src/Led.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/Led.obj
+.PHONY : Driver/Src/Led.obj
+
+# target to preprocess a source file
+Driver/Src/Led.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/Led.i
+.PHONY : Driver/Src/Led.i
+
+# target to generate assembly for a file
+Driver/Src/Led.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/Led.s
+.PHONY : Driver/Src/Led.s
+
+# target to build an object file
+Driver/Src/MPU6050.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/MPU6050.obj
+.PHONY : Driver/Src/MPU6050.obj
+
+# target to preprocess a source file
+Driver/Src/MPU6050.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/MPU6050.i
+.PHONY : Driver/Src/MPU6050.i
+
+# target to generate assembly for a file
+Driver/Src/MPU6050.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/MPU6050.s
+.PHONY : Driver/Src/MPU6050.s
+
+# target to build an object file
+Driver/Src/OLED.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/OLED.obj
+.PHONY : Driver/Src/OLED.obj
+
+# target to preprocess a source file
+Driver/Src/OLED.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/OLED.i
+.PHONY : Driver/Src/OLED.i
+
+# target to generate assembly for a file
+Driver/Src/OLED.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/OLED.s
+.PHONY : Driver/Src/OLED.s
+
+# target to build an object file
+Driver/Src/PWM.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/PWM.obj
+.PHONY : Driver/Src/PWM.obj
+
+# target to preprocess a source file
+Driver/Src/PWM.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/PWM.i
+.PHONY : Driver/Src/PWM.i
+
+# target to generate assembly for a file
+Driver/Src/PWM.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/PWM.s
+.PHONY : Driver/Src/PWM.s
+
+# target to build an object file
+Driver/Src/Timer.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/Timer.obj
+.PHONY : Driver/Src/Timer.obj
+
+# target to preprocess a source file
+Driver/Src/Timer.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/Timer.i
+.PHONY : Driver/Src/Timer.i
+
+# target to generate assembly for a file
+Driver/Src/Timer.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/Timer.s
+.PHONY : Driver/Src/Timer.s
+
+# target to build an object file
+Driver/Src/USART.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/USART.obj
+.PHONY : Driver/Src/USART.obj
+
+# target to preprocess a source file
+Driver/Src/USART.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/USART.i
+.PHONY : Driver/Src/USART.i
+
+# target to generate assembly for a file
+Driver/Src/USART.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/USART.s
+.PHONY : Driver/Src/USART.s
+
+# target to build an object file
+Driver/Src/anotc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/anotc.obj
+.PHONY : Driver/Src/anotc.obj
+
+# target to preprocess a source file
+Driver/Src/anotc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/anotc.i
+.PHONY : Driver/Src/anotc.i
+
+# target to generate assembly for a file
+Driver/Src/anotc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/anotc.s
+.PHONY : Driver/Src/anotc.s
+
+# target to build an object file
+Driver/Src/attitude.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/attitude.obj
+.PHONY : Driver/Src/attitude.obj
+
+# target to preprocess a source file
+Driver/Src/attitude.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/attitude.i
+.PHONY : Driver/Src/attitude.i
+
+# target to generate assembly for a file
+Driver/Src/attitude.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/attitude.s
+.PHONY : Driver/Src/attitude.s
+
+# target to build an object file
+Driver/Src/gaussnewton.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.obj
+.PHONY : Driver/Src/gaussnewton.obj
+
+# target to preprocess a source file
+Driver/Src/gaussnewton.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.i
+.PHONY : Driver/Src/gaussnewton.i
+
+# target to generate assembly for a file
+Driver/Src/gaussnewton.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.s
+.PHONY : Driver/Src/gaussnewton.s
+
+# target to build an object file
+Driver/Src/madgwick.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/madgwick.obj
+.PHONY : Driver/Src/madgwick.obj
+
+# target to preprocess a source file
+Driver/Src/madgwick.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/madgwick.i
+.PHONY : Driver/Src/madgwick.i
+
+# target to generate assembly for a file
+Driver/Src/madgwick.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/madgwick.s
+.PHONY : Driver/Src/madgwick.s
+
+# target to build an object file
+Driver/Src/motor.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/motor.obj
+.PHONY : Driver/Src/motor.obj
+
+# target to preprocess a source file
+Driver/Src/motor.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/motor.i
+.PHONY : Driver/Src/motor.i
+
+# target to generate assembly for a file
+Driver/Src/motor.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/motor.s
+.PHONY : Driver/Src/motor.s
+
+# target to build an object file
+Driver/Src/myiic.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/myiic.obj
+.PHONY : Driver/Src/myiic.obj
+
+# target to preprocess a source file
+Driver/Src/myiic.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/myiic.i
+.PHONY : Driver/Src/myiic.i
+
+# target to generate assembly for a file
+Driver/Src/myiic.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/myiic.s
+.PHONY : Driver/Src/myiic.s
+
+# target to build an object file
+Driver/Src/mymadgwick.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.obj
+.PHONY : Driver/Src/mymadgwick.obj
+
+# target to preprocess a source file
+Driver/Src/mymadgwick.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.i
+.PHONY : Driver/Src/mymadgwick.i
+
+# target to generate assembly for a file
+Driver/Src/mymadgwick.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.s
+.PHONY : Driver/Src/mymadgwick.s
+
+# target to build an object file
+Driver/Src/pid.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/pid.obj
+.PHONY : Driver/Src/pid.obj
+
+# target to preprocess a source file
+Driver/Src/pid.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/pid.i
+.PHONY : Driver/Src/pid.i
+
+# target to generate assembly for a file
+Driver/Src/pid.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/Driver/Src/pid.s
+.PHONY : Driver/Src/pid.s
+
+# target to build an object file
+OS/Src/app_hooks.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/app_hooks.obj
+.PHONY : OS/Src/app_hooks.obj
 
 # target to preprocess a source file
 OS/Src/app_hooks.i:
@@ -145,39 +385,9 @@ OS/Src/app_hooks.s:
 .PHONY : OS/Src/app_hooks.s
 
 # target to build an object file
-OS/Src/os_core.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_core.o
-.PHONY : OS/Src/os_core.o
-
-# target to preprocess a source file
-OS/Src/os_core.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_core.i
-.PHONY : OS/Src/os_core.i
-
-# target to generate assembly for a file
-OS/Src/os_core.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_core.s
-.PHONY : OS/Src/os_core.s
-
-# target to build an object file
-OS/Src/os_cpu.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_cpu.o
-.PHONY : OS/Src/os_cpu.o
-
-# target to preprocess a source file
-OS/Src/os_cpu.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_cpu.i
-.PHONY : OS/Src/os_cpu.i
-
-# target to generate assembly for a file
-OS/Src/os_cpu.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_cpu.s
-.PHONY : OS/Src/os_cpu.s
-
-# target to build an object file
-OS/Src/os_cpu_c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.o
-.PHONY : OS/Src/os_cpu_c.o
+OS/Src/os_cpu_c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.obj
+.PHONY : OS/Src/os_cpu_c.obj
 
 # target to preprocess a source file
 OS/Src/os_cpu_c.i:
@@ -190,9 +400,9 @@ OS/Src/os_cpu_c.s:
 .PHONY : OS/Src/os_cpu_c.s
 
 # target to build an object file
-OS/Src/os_dbg_r.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.o
-.PHONY : OS/Src/os_dbg_r.o
+OS/Src/os_dbg_r.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.obj
+.PHONY : OS/Src/os_dbg_r.obj
 
 # target to preprocess a source file
 OS/Src/os_dbg_r.i:
@@ -205,144 +415,9 @@ OS/Src/os_dbg_r.s:
 .PHONY : OS/Src/os_dbg_r.s
 
 # target to build an object file
-OS/Src/os_flag.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_flag.o
-.PHONY : OS/Src/os_flag.o
-
-# target to preprocess a source file
-OS/Src/os_flag.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_flag.i
-.PHONY : OS/Src/os_flag.i
-
-# target to generate assembly for a file
-OS/Src/os_flag.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_flag.s
-.PHONY : OS/Src/os_flag.s
-
-# target to build an object file
-OS/Src/os_mbox.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_mbox.o
-.PHONY : OS/Src/os_mbox.o
-
-# target to preprocess a source file
-OS/Src/os_mbox.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_mbox.i
-.PHONY : OS/Src/os_mbox.i
-
-# target to generate assembly for a file
-OS/Src/os_mbox.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_mbox.s
-.PHONY : OS/Src/os_mbox.s
-
-# target to build an object file
-OS/Src/os_mem.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_mem.o
-.PHONY : OS/Src/os_mem.o
-
-# target to preprocess a source file
-OS/Src/os_mem.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_mem.i
-.PHONY : OS/Src/os_mem.i
-
-# target to generate assembly for a file
-OS/Src/os_mem.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_mem.s
-.PHONY : OS/Src/os_mem.s
-
-# target to build an object file
-OS/Src/os_mutex.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_mutex.o
-.PHONY : OS/Src/os_mutex.o
-
-# target to preprocess a source file
-OS/Src/os_mutex.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_mutex.i
-.PHONY : OS/Src/os_mutex.i
-
-# target to generate assembly for a file
-OS/Src/os_mutex.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_mutex.s
-.PHONY : OS/Src/os_mutex.s
-
-# target to build an object file
-OS/Src/os_q.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_q.o
-.PHONY : OS/Src/os_q.o
-
-# target to preprocess a source file
-OS/Src/os_q.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_q.i
-.PHONY : OS/Src/os_q.i
-
-# target to generate assembly for a file
-OS/Src/os_q.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_q.s
-.PHONY : OS/Src/os_q.s
-
-# target to build an object file
-OS/Src/os_sem.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_sem.o
-.PHONY : OS/Src/os_sem.o
-
-# target to preprocess a source file
-OS/Src/os_sem.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_sem.i
-.PHONY : OS/Src/os_sem.i
-
-# target to generate assembly for a file
-OS/Src/os_sem.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_sem.s
-.PHONY : OS/Src/os_sem.s
-
-# target to build an object file
-OS/Src/os_task.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_task.o
-.PHONY : OS/Src/os_task.o
-
-# target to preprocess a source file
-OS/Src/os_task.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_task.i
-.PHONY : OS/Src/os_task.i
-
-# target to generate assembly for a file
-OS/Src/os_task.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_task.s
-.PHONY : OS/Src/os_task.s
-
-# target to build an object file
-OS/Src/os_time.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_time.o
-.PHONY : OS/Src/os_time.o
-
-# target to preprocess a source file
-OS/Src/os_time.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_time.i
-.PHONY : OS/Src/os_time.i
-
-# target to generate assembly for a file
-OS/Src/os_time.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_time.s
-.PHONY : OS/Src/os_time.s
-
-# target to build an object file
-OS/Src/os_tmr.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_tmr.o
-.PHONY : OS/Src/os_tmr.o
-
-# target to preprocess a source file
-OS/Src/os_tmr.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_tmr.i
-.PHONY : OS/Src/os_tmr.i
-
-# target to generate assembly for a file
-OS/Src/os_tmr.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/os_tmr.s
-.PHONY : OS/Src/os_tmr.s
-
-# target to build an object file
-OS/Src/ucos_ii.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/ucos_ii.o
-.PHONY : OS/Src/ucos_ii.o
+OS/Src/ucos_ii.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/Src/ucos_ii.obj
+.PHONY : OS/Src/ucos_ii.obj
 
 # target to preprocess a source file
 OS/Src/ucos_ii.i:
@@ -355,9 +430,14 @@ OS/Src/ucos_ii.s:
 .PHONY : OS/Src/ucos_ii.s
 
 # target to build an object file
-STM32F40xLib/Src/misc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.o
-.PHONY : STM32F40xLib/Src/misc.o
+OS/os_cpu_a.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/OS/os_cpu_a.obj
+.PHONY : OS/os_cpu_a.obj
+
+# target to build an object file
+STM32F40xLib/Src/misc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.obj
+.PHONY : STM32F40xLib/Src/misc.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/misc.i:
@@ -370,9 +450,9 @@ STM32F40xLib/Src/misc.s:
 .PHONY : STM32F40xLib/Src/misc.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_adc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_adc.o
+STM32F40xLib/Src/stm32f4xx_adc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_adc.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_adc.i:
@@ -385,9 +465,9 @@ STM32F40xLib/Src/stm32f4xx_adc.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_adc.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_can.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_can.o
+STM32F40xLib/Src/stm32f4xx_can.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_can.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_can.i:
@@ -400,9 +480,9 @@ STM32F40xLib/Src/stm32f4xx_can.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_can.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_cec.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_cec.o
+STM32F40xLib/Src/stm32f4xx_cec.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_cec.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_cec.i:
@@ -415,9 +495,9 @@ STM32F40xLib/Src/stm32f4xx_cec.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_cec.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_crc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_crc.o
+STM32F40xLib/Src/stm32f4xx_crc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_crc.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_crc.i:
@@ -430,9 +510,9 @@ STM32F40xLib/Src/stm32f4xx_crc.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_crc.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_cryp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_cryp.o
+STM32F40xLib/Src/stm32f4xx_cryp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_cryp.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_cryp.i:
@@ -445,9 +525,9 @@ STM32F40xLib/Src/stm32f4xx_cryp.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_cryp.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_cryp_aes.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_cryp_aes.o
+STM32F40xLib/Src/stm32f4xx_cryp_aes.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_cryp_aes.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_cryp_aes.i:
@@ -460,9 +540,9 @@ STM32F40xLib/Src/stm32f4xx_cryp_aes.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_cryp_aes.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_cryp_des.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_cryp_des.o
+STM32F40xLib/Src/stm32f4xx_cryp_des.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_cryp_des.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_cryp_des.i:
@@ -475,9 +555,9 @@ STM32F40xLib/Src/stm32f4xx_cryp_des.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_cryp_des.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_cryp_tdes.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_cryp_tdes.o
+STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_cryp_tdes.i:
@@ -490,9 +570,9 @@ STM32F40xLib/Src/stm32f4xx_cryp_tdes.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_cryp_tdes.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_dac.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_dac.o
+STM32F40xLib/Src/stm32f4xx_dac.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_dac.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_dac.i:
@@ -505,9 +585,9 @@ STM32F40xLib/Src/stm32f4xx_dac.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_dac.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_dbgmcu.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_dbgmcu.o
+STM32F40xLib/Src/stm32f4xx_dbgmcu.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_dbgmcu.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_dbgmcu.i:
@@ -520,9 +600,9 @@ STM32F40xLib/Src/stm32f4xx_dbgmcu.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_dbgmcu.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_dcmi.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_dcmi.o
+STM32F40xLib/Src/stm32f4xx_dcmi.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_dcmi.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_dcmi.i:
@@ -535,9 +615,9 @@ STM32F40xLib/Src/stm32f4xx_dcmi.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_dcmi.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_dfsdm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_dfsdm.o
+STM32F40xLib/Src/stm32f4xx_dfsdm.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_dfsdm.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_dfsdm.i:
@@ -550,9 +630,9 @@ STM32F40xLib/Src/stm32f4xx_dfsdm.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_dfsdm.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_dma.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_dma.o
+STM32F40xLib/Src/stm32f4xx_dma.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_dma.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_dma.i:
@@ -565,9 +645,9 @@ STM32F40xLib/Src/stm32f4xx_dma.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_dma.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_dma2d.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_dma2d.o
+STM32F40xLib/Src/stm32f4xx_dma2d.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_dma2d.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_dma2d.i:
@@ -580,9 +660,9 @@ STM32F40xLib/Src/stm32f4xx_dma2d.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_dma2d.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_dsi.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_dsi.o
+STM32F40xLib/Src/stm32f4xx_dsi.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_dsi.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_dsi.i:
@@ -595,9 +675,9 @@ STM32F40xLib/Src/stm32f4xx_dsi.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_dsi.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_exti.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_exti.o
+STM32F40xLib/Src/stm32f4xx_exti.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_exti.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_exti.i:
@@ -610,9 +690,9 @@ STM32F40xLib/Src/stm32f4xx_exti.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_exti.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_flash.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_flash.o
+STM32F40xLib/Src/stm32f4xx_flash.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_flash.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_flash.i:
@@ -625,9 +705,9 @@ STM32F40xLib/Src/stm32f4xx_flash.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_flash.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o
+STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_flash_ramfunc.i:
@@ -640,24 +720,9 @@ STM32F40xLib/Src/stm32f4xx_flash_ramfunc.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_flash_ramfunc.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_fmc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_fmc.o
-
-# target to preprocess a source file
-STM32F40xLib/Src/stm32f4xx_fmc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.i
-.PHONY : STM32F40xLib/Src/stm32f4xx_fmc.i
-
-# target to generate assembly for a file
-STM32F40xLib/Src/stm32f4xx_fmc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.s
-.PHONY : STM32F40xLib/Src/stm32f4xx_fmc.s
-
-# target to build an object file
-STM32F40xLib/Src/stm32f4xx_fmpi2c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_fmpi2c.o
+STM32F40xLib/Src/stm32f4xx_fmpi2c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_fmpi2c.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_fmpi2c.i:
@@ -670,24 +735,9 @@ STM32F40xLib/Src/stm32f4xx_fmpi2c.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_fmpi2c.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_fsmc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_fsmc.o
-
-# target to preprocess a source file
-STM32F40xLib/Src/stm32f4xx_fsmc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.i
-.PHONY : STM32F40xLib/Src/stm32f4xx_fsmc.i
-
-# target to generate assembly for a file
-STM32F40xLib/Src/stm32f4xx_fsmc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.s
-.PHONY : STM32F40xLib/Src/stm32f4xx_fsmc.s
-
-# target to build an object file
-STM32F40xLib/Src/stm32f4xx_gpio.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_gpio.o
+STM32F40xLib/Src/stm32f4xx_gpio.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_gpio.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_gpio.i:
@@ -700,9 +750,9 @@ STM32F40xLib/Src/stm32f4xx_gpio.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_gpio.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_hash.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_hash.o
+STM32F40xLib/Src/stm32f4xx_hash.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_hash.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_hash.i:
@@ -715,9 +765,9 @@ STM32F40xLib/Src/stm32f4xx_hash.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_hash.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_hash_md5.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_hash_md5.o
+STM32F40xLib/Src/stm32f4xx_hash_md5.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_hash_md5.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_hash_md5.i:
@@ -730,9 +780,9 @@ STM32F40xLib/Src/stm32f4xx_hash_md5.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_hash_md5.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_hash_sha1.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_hash_sha1.o
+STM32F40xLib/Src/stm32f4xx_hash_sha1.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_hash_sha1.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_hash_sha1.i:
@@ -745,9 +795,9 @@ STM32F40xLib/Src/stm32f4xx_hash_sha1.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_hash_sha1.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_i2c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_i2c.o
+STM32F40xLib/Src/stm32f4xx_i2c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_i2c.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_i2c.i:
@@ -760,9 +810,9 @@ STM32F40xLib/Src/stm32f4xx_i2c.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_i2c.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_it.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_it.o
+STM32F40xLib/Src/stm32f4xx_it.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_it.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_it.i:
@@ -775,9 +825,9 @@ STM32F40xLib/Src/stm32f4xx_it.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_it.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_iwdg.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_iwdg.o
+STM32F40xLib/Src/stm32f4xx_iwdg.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_iwdg.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_iwdg.i:
@@ -790,9 +840,9 @@ STM32F40xLib/Src/stm32f4xx_iwdg.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_iwdg.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_lptim.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_lptim.o
+STM32F40xLib/Src/stm32f4xx_lptim.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_lptim.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_lptim.i:
@@ -805,9 +855,9 @@ STM32F40xLib/Src/stm32f4xx_lptim.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_lptim.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_ltdc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_ltdc.o
+STM32F40xLib/Src/stm32f4xx_ltdc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_ltdc.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_ltdc.i:
@@ -820,9 +870,9 @@ STM32F40xLib/Src/stm32f4xx_ltdc.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_ltdc.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_pwr.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_pwr.o
+STM32F40xLib/Src/stm32f4xx_pwr.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_pwr.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_pwr.i:
@@ -835,9 +885,9 @@ STM32F40xLib/Src/stm32f4xx_pwr.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_pwr.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_qspi.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_qspi.o
+STM32F40xLib/Src/stm32f4xx_qspi.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_qspi.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_qspi.i:
@@ -850,9 +900,9 @@ STM32F40xLib/Src/stm32f4xx_qspi.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_qspi.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_rcc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_rcc.o
+STM32F40xLib/Src/stm32f4xx_rcc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_rcc.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_rcc.i:
@@ -865,9 +915,9 @@ STM32F40xLib/Src/stm32f4xx_rcc.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_rcc.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_rng.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_rng.o
+STM32F40xLib/Src/stm32f4xx_rng.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_rng.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_rng.i:
@@ -880,9 +930,9 @@ STM32F40xLib/Src/stm32f4xx_rng.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_rng.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_rtc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_rtc.o
+STM32F40xLib/Src/stm32f4xx_rtc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_rtc.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_rtc.i:
@@ -895,9 +945,9 @@ STM32F40xLib/Src/stm32f4xx_rtc.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_rtc.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_sai.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_sai.o
+STM32F40xLib/Src/stm32f4xx_sai.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_sai.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_sai.i:
@@ -910,9 +960,9 @@ STM32F40xLib/Src/stm32f4xx_sai.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_sai.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_sdio.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_sdio.o
+STM32F40xLib/Src/stm32f4xx_sdio.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_sdio.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_sdio.i:
@@ -925,9 +975,9 @@ STM32F40xLib/Src/stm32f4xx_sdio.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_sdio.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_spdifrx.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_spdifrx.o
+STM32F40xLib/Src/stm32f4xx_spdifrx.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_spdifrx.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_spdifrx.i:
@@ -940,9 +990,9 @@ STM32F40xLib/Src/stm32f4xx_spdifrx.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_spdifrx.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_spi.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_spi.o
+STM32F40xLib/Src/stm32f4xx_spi.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_spi.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_spi.i:
@@ -955,9 +1005,9 @@ STM32F40xLib/Src/stm32f4xx_spi.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_spi.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_syscfg.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_syscfg.o
+STM32F40xLib/Src/stm32f4xx_syscfg.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_syscfg.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_syscfg.i:
@@ -970,9 +1020,9 @@ STM32F40xLib/Src/stm32f4xx_syscfg.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_syscfg.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_tim.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_tim.o
+STM32F40xLib/Src/stm32f4xx_tim.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_tim.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_tim.i:
@@ -985,9 +1035,9 @@ STM32F40xLib/Src/stm32f4xx_tim.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_tim.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_usart.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_usart.o
+STM32F40xLib/Src/stm32f4xx_usart.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_usart.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_usart.i:
@@ -1000,9 +1050,9 @@ STM32F40xLib/Src/stm32f4xx_usart.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_usart.s
 
 # target to build an object file
-STM32F40xLib/Src/stm32f4xx_wwdg.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.o
-.PHONY : STM32F40xLib/Src/stm32f4xx_wwdg.o
+STM32F40xLib/Src/stm32f4xx_wwdg.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.obj
+.PHONY : STM32F40xLib/Src/stm32f4xx_wwdg.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/stm32f4xx_wwdg.i:
@@ -1015,9 +1065,9 @@ STM32F40xLib/Src/stm32f4xx_wwdg.s:
 .PHONY : STM32F40xLib/Src/stm32f4xx_wwdg.s
 
 # target to build an object file
-STM32F40xLib/Src/system_stm32f4xx.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.o
-.PHONY : STM32F40xLib/Src/system_stm32f4xx.o
+STM32F40xLib/Src/system_stm32f4xx.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.obj
+.PHONY : STM32F40xLib/Src/system_stm32f4xx.obj
 
 # target to preprocess a source file
 STM32F40xLib/Src/system_stm32f4xx.i:
@@ -1030,9 +1080,9 @@ STM32F40xLib/Src/system_stm32f4xx.s:
 .PHONY : STM32F40xLib/Src/system_stm32f4xx.s
 
 # target to build an object file
-USR/main.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/USR/main.o
-.PHONY : USR/main.o
+USR/main.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/USR/main.obj
+.PHONY : USR/main.obj
 
 # target to preprocess a source file
 USR/main.i:
@@ -1045,9 +1095,9 @@ USR/main.s:
 .PHONY : USR/main.s
 
 # target to build an object file
-USR/mutex.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/USR/mutex.o
-.PHONY : USR/mutex.o
+USR/mutex.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/USR/mutex.obj
+.PHONY : USR/mutex.obj
 
 # target to preprocess a source file
 USR/mutex.i:
@@ -1060,9 +1110,9 @@ USR/mutex.s:
 .PHONY : USR/mutex.s
 
 # target to build an object file
-USR/task.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/USR/task.o
-.PHONY : USR/task.o
+USR/task.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/USR/task.obj
+.PHONY : USR/task.obj
 
 # target to preprocess a source file
 USR/task.i:
@@ -1075,19 +1125,9 @@ USR/task.s:
 .PHONY : USR/task.s
 
 # target to build an object file
-USR/test.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/USR/test.o
-.PHONY : USR/test.o
-
-# target to preprocess a source file
-USR/test.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/USR/test.i
-.PHONY : USR/test.i
-
-# target to generate assembly for a file
-USR/test.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/USR/test.s
-.PHONY : USR/test.s
+startup_stm32f401xe.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Airplane.dir/build.make CMakeFiles/Airplane.dir/startup_stm32f401xe.obj
+.PHONY : startup_stm32f401xe.obj
 
 # Help Target
 help:
@@ -1098,198 +1138,206 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Airplane"
-	@echo "... OS/Src/app_hooks.o"
+	@echo "... Driver/Src/Delay.obj"
+	@echo "... Driver/Src/Delay.i"
+	@echo "... Driver/Src/Delay.s"
+	@echo "... Driver/Src/HMC5883L.obj"
+	@echo "... Driver/Src/HMC5883L.i"
+	@echo "... Driver/Src/HMC5883L.s"
+	@echo "... Driver/Src/Led.obj"
+	@echo "... Driver/Src/Led.i"
+	@echo "... Driver/Src/Led.s"
+	@echo "... Driver/Src/MPU6050.obj"
+	@echo "... Driver/Src/MPU6050.i"
+	@echo "... Driver/Src/MPU6050.s"
+	@echo "... Driver/Src/OLED.obj"
+	@echo "... Driver/Src/OLED.i"
+	@echo "... Driver/Src/OLED.s"
+	@echo "... Driver/Src/PWM.obj"
+	@echo "... Driver/Src/PWM.i"
+	@echo "... Driver/Src/PWM.s"
+	@echo "... Driver/Src/Timer.obj"
+	@echo "... Driver/Src/Timer.i"
+	@echo "... Driver/Src/Timer.s"
+	@echo "... Driver/Src/USART.obj"
+	@echo "... Driver/Src/USART.i"
+	@echo "... Driver/Src/USART.s"
+	@echo "... Driver/Src/anotc.obj"
+	@echo "... Driver/Src/anotc.i"
+	@echo "... Driver/Src/anotc.s"
+	@echo "... Driver/Src/attitude.obj"
+	@echo "... Driver/Src/attitude.i"
+	@echo "... Driver/Src/attitude.s"
+	@echo "... Driver/Src/gaussnewton.obj"
+	@echo "... Driver/Src/gaussnewton.i"
+	@echo "... Driver/Src/gaussnewton.s"
+	@echo "... Driver/Src/madgwick.obj"
+	@echo "... Driver/Src/madgwick.i"
+	@echo "... Driver/Src/madgwick.s"
+	@echo "... Driver/Src/motor.obj"
+	@echo "... Driver/Src/motor.i"
+	@echo "... Driver/Src/motor.s"
+	@echo "... Driver/Src/myiic.obj"
+	@echo "... Driver/Src/myiic.i"
+	@echo "... Driver/Src/myiic.s"
+	@echo "... Driver/Src/mymadgwick.obj"
+	@echo "... Driver/Src/mymadgwick.i"
+	@echo "... Driver/Src/mymadgwick.s"
+	@echo "... Driver/Src/pid.obj"
+	@echo "... Driver/Src/pid.i"
+	@echo "... Driver/Src/pid.s"
+	@echo "... OS/Src/app_hooks.obj"
 	@echo "... OS/Src/app_hooks.i"
 	@echo "... OS/Src/app_hooks.s"
-	@echo "... OS/Src/os_core.o"
-	@echo "... OS/Src/os_core.i"
-	@echo "... OS/Src/os_core.s"
-	@echo "... OS/Src/os_cpu.o"
-	@echo "... OS/Src/os_cpu.i"
-	@echo "... OS/Src/os_cpu.s"
-	@echo "... OS/Src/os_cpu_c.o"
+	@echo "... OS/Src/os_cpu_c.obj"
 	@echo "... OS/Src/os_cpu_c.i"
 	@echo "... OS/Src/os_cpu_c.s"
-	@echo "... OS/Src/os_dbg_r.o"
+	@echo "... OS/Src/os_dbg_r.obj"
 	@echo "... OS/Src/os_dbg_r.i"
 	@echo "... OS/Src/os_dbg_r.s"
-	@echo "... OS/Src/os_flag.o"
-	@echo "... OS/Src/os_flag.i"
-	@echo "... OS/Src/os_flag.s"
-	@echo "... OS/Src/os_mbox.o"
-	@echo "... OS/Src/os_mbox.i"
-	@echo "... OS/Src/os_mbox.s"
-	@echo "... OS/Src/os_mem.o"
-	@echo "... OS/Src/os_mem.i"
-	@echo "... OS/Src/os_mem.s"
-	@echo "... OS/Src/os_mutex.o"
-	@echo "... OS/Src/os_mutex.i"
-	@echo "... OS/Src/os_mutex.s"
-	@echo "... OS/Src/os_q.o"
-	@echo "... OS/Src/os_q.i"
-	@echo "... OS/Src/os_q.s"
-	@echo "... OS/Src/os_sem.o"
-	@echo "... OS/Src/os_sem.i"
-	@echo "... OS/Src/os_sem.s"
-	@echo "... OS/Src/os_task.o"
-	@echo "... OS/Src/os_task.i"
-	@echo "... OS/Src/os_task.s"
-	@echo "... OS/Src/os_time.o"
-	@echo "... OS/Src/os_time.i"
-	@echo "... OS/Src/os_time.s"
-	@echo "... OS/Src/os_tmr.o"
-	@echo "... OS/Src/os_tmr.i"
-	@echo "... OS/Src/os_tmr.s"
-	@echo "... OS/Src/ucos_ii.o"
+	@echo "... OS/Src/ucos_ii.obj"
 	@echo "... OS/Src/ucos_ii.i"
 	@echo "... OS/Src/ucos_ii.s"
-	@echo "... STM32F40xLib/Src/misc.o"
+	@echo "... OS/os_cpu_a.obj"
+	@echo "... STM32F40xLib/Src/misc.obj"
 	@echo "... STM32F40xLib/Src/misc.i"
 	@echo "... STM32F40xLib/Src/misc.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_adc.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_adc.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_adc.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_adc.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_can.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_can.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_can.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_can.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_cec.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_cec.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_cec.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_cec.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_crc.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_crc.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_crc.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_crc.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_cryp.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_cryp.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_cryp.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_cryp.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_cryp_aes.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_cryp_aes.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_cryp_aes.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_cryp_aes.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_cryp_des.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_cryp_des.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_cryp_des.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_cryp_des.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_cryp_tdes.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_cryp_tdes.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_cryp_tdes.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_dac.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_dac.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dac.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dac.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_dbgmcu.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_dbgmcu.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dbgmcu.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dbgmcu.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_dcmi.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_dcmi.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dcmi.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dcmi.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_dfsdm.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_dfsdm.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dfsdm.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dfsdm.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_dma.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_dma.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dma.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dma.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_dma2d.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_dma2d.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dma2d.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dma2d.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_dsi.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_dsi.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dsi.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_dsi.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_exti.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_exti.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_exti.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_exti.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_flash.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_flash.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_flash.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_flash.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_flash_ramfunc.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_flash_ramfunc.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_fmc.o"
-	@echo "... STM32F40xLib/Src/stm32f4xx_fmc.i"
-	@echo "... STM32F40xLib/Src/stm32f4xx_fmc.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_fmpi2c.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_fmpi2c.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_fmpi2c.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_fmpi2c.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_fsmc.o"
-	@echo "... STM32F40xLib/Src/stm32f4xx_fsmc.i"
-	@echo "... STM32F40xLib/Src/stm32f4xx_fsmc.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_gpio.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_gpio.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_gpio.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_gpio.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_hash.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_hash.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_hash.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_hash.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_hash_md5.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_hash_md5.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_hash_md5.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_hash_md5.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_hash_sha1.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_hash_sha1.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_hash_sha1.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_hash_sha1.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_i2c.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_i2c.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_i2c.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_i2c.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_it.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_it.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_it.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_it.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_iwdg.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_iwdg.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_iwdg.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_iwdg.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_lptim.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_lptim.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_lptim.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_lptim.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_ltdc.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_ltdc.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_ltdc.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_ltdc.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_pwr.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_pwr.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_pwr.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_pwr.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_qspi.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_qspi.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_qspi.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_qspi.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_rcc.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_rcc.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_rcc.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_rcc.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_rng.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_rng.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_rng.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_rng.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_rtc.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_rtc.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_rtc.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_rtc.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_sai.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_sai.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_sai.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_sai.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_sdio.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_sdio.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_sdio.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_sdio.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_spdifrx.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_spdifrx.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_spdifrx.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_spdifrx.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_spi.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_spi.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_spi.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_spi.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_syscfg.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_syscfg.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_syscfg.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_syscfg.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_tim.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_tim.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_tim.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_tim.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_usart.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_usart.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_usart.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_usart.s"
-	@echo "... STM32F40xLib/Src/stm32f4xx_wwdg.o"
+	@echo "... STM32F40xLib/Src/stm32f4xx_wwdg.obj"
 	@echo "... STM32F40xLib/Src/stm32f4xx_wwdg.i"
 	@echo "... STM32F40xLib/Src/stm32f4xx_wwdg.s"
-	@echo "... STM32F40xLib/Src/system_stm32f4xx.o"
+	@echo "... STM32F40xLib/Src/system_stm32f4xx.obj"
 	@echo "... STM32F40xLib/Src/system_stm32f4xx.i"
 	@echo "... STM32F40xLib/Src/system_stm32f4xx.s"
-	@echo "... USR/main.o"
+	@echo "... USR/main.obj"
 	@echo "... USR/main.i"
 	@echo "... USR/main.s"
-	@echo "... USR/mutex.o"
+	@echo "... USR/mutex.obj"
 	@echo "... USR/mutex.i"
 	@echo "... USR/mutex.s"
-	@echo "... USR/task.o"
+	@echo "... USR/task.obj"
 	@echo "... USR/task.i"
 	@echo "... USR/task.s"
-	@echo "... USR/test.o"
-	@echo "... USR/test.i"
-	@echo "... USR/test.s"
+	@echo "... startup_stm32f401xe.obj"
 .PHONY : help
 
 

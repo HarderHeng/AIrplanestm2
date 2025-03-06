@@ -69,1043 +69,1105 @@ include CMakeFiles/Airplane.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Airplane.dir/flags.make
 
-CMakeFiles/Airplane.dir/OS/Src/app_hooks.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/app_hooks.o: ../OS/Src/app_hooks.c
-CMakeFiles/Airplane.dir/OS/Src/app_hooks.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Airplane.dir/OS/Src/app_hooks.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/app_hooks.o -MF CMakeFiles/Airplane.dir/OS/Src/app_hooks.o.d -o CMakeFiles/Airplane.dir/OS/Src/app_hooks.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/app_hooks.c
+CMakeFiles/Airplane.dir/Driver/Src/Delay.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/Delay.obj: ../Driver/Src/Delay.c
+CMakeFiles/Airplane.dir/Driver/Src/Delay.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Airplane.dir/Driver/Src/Delay.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/Delay.obj -MF CMakeFiles/Airplane.dir/Driver/Src/Delay.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/Delay.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/Delay.c
+
+CMakeFiles/Airplane.dir/Driver/Src/Delay.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/Delay.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/Delay.c > CMakeFiles/Airplane.dir/Driver/Src/Delay.i
+
+CMakeFiles/Airplane.dir/Driver/Src/Delay.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/Delay.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/Delay.c -o CMakeFiles/Airplane.dir/Driver/Src/Delay.s
+
+CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.obj: ../Driver/Src/HMC5883L.c
+CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.obj -MF CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/HMC5883L.c
+
+CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/HMC5883L.c > CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.i
+
+CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/HMC5883L.c -o CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.s
+
+CMakeFiles/Airplane.dir/Driver/Src/Led.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/Led.obj: ../Driver/Src/Led.c
+CMakeFiles/Airplane.dir/Driver/Src/Led.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Airplane.dir/Driver/Src/Led.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/Led.obj -MF CMakeFiles/Airplane.dir/Driver/Src/Led.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/Led.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/Led.c
+
+CMakeFiles/Airplane.dir/Driver/Src/Led.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/Led.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/Led.c > CMakeFiles/Airplane.dir/Driver/Src/Led.i
+
+CMakeFiles/Airplane.dir/Driver/Src/Led.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/Led.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/Led.c -o CMakeFiles/Airplane.dir/Driver/Src/Led.s
+
+CMakeFiles/Airplane.dir/Driver/Src/MPU6050.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/MPU6050.obj: ../Driver/Src/MPU6050.c
+CMakeFiles/Airplane.dir/Driver/Src/MPU6050.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Airplane.dir/Driver/Src/MPU6050.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/MPU6050.obj -MF CMakeFiles/Airplane.dir/Driver/Src/MPU6050.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/MPU6050.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/MPU6050.c
+
+CMakeFiles/Airplane.dir/Driver/Src/MPU6050.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/MPU6050.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/MPU6050.c > CMakeFiles/Airplane.dir/Driver/Src/MPU6050.i
+
+CMakeFiles/Airplane.dir/Driver/Src/MPU6050.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/MPU6050.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/MPU6050.c -o CMakeFiles/Airplane.dir/Driver/Src/MPU6050.s
+
+CMakeFiles/Airplane.dir/Driver/Src/OLED.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/OLED.obj: ../Driver/Src/OLED.c
+CMakeFiles/Airplane.dir/Driver/Src/OLED.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Airplane.dir/Driver/Src/OLED.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/OLED.obj -MF CMakeFiles/Airplane.dir/Driver/Src/OLED.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/OLED.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/OLED.c
+
+CMakeFiles/Airplane.dir/Driver/Src/OLED.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/OLED.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/OLED.c > CMakeFiles/Airplane.dir/Driver/Src/OLED.i
+
+CMakeFiles/Airplane.dir/Driver/Src/OLED.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/OLED.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/OLED.c -o CMakeFiles/Airplane.dir/Driver/Src/OLED.s
+
+CMakeFiles/Airplane.dir/Driver/Src/PWM.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/PWM.obj: ../Driver/Src/PWM.c
+CMakeFiles/Airplane.dir/Driver/Src/PWM.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Airplane.dir/Driver/Src/PWM.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/PWM.obj -MF CMakeFiles/Airplane.dir/Driver/Src/PWM.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/PWM.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/PWM.c
+
+CMakeFiles/Airplane.dir/Driver/Src/PWM.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/PWM.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/PWM.c > CMakeFiles/Airplane.dir/Driver/Src/PWM.i
+
+CMakeFiles/Airplane.dir/Driver/Src/PWM.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/PWM.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/PWM.c -o CMakeFiles/Airplane.dir/Driver/Src/PWM.s
+
+CMakeFiles/Airplane.dir/Driver/Src/Timer.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/Timer.obj: ../Driver/Src/Timer.c
+CMakeFiles/Airplane.dir/Driver/Src/Timer.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Airplane.dir/Driver/Src/Timer.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/Timer.obj -MF CMakeFiles/Airplane.dir/Driver/Src/Timer.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/Timer.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/Timer.c
+
+CMakeFiles/Airplane.dir/Driver/Src/Timer.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/Timer.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/Timer.c > CMakeFiles/Airplane.dir/Driver/Src/Timer.i
+
+CMakeFiles/Airplane.dir/Driver/Src/Timer.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/Timer.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/Timer.c -o CMakeFiles/Airplane.dir/Driver/Src/Timer.s
+
+CMakeFiles/Airplane.dir/Driver/Src/USART.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/USART.obj: ../Driver/Src/USART.c
+CMakeFiles/Airplane.dir/Driver/Src/USART.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Airplane.dir/Driver/Src/USART.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/USART.obj -MF CMakeFiles/Airplane.dir/Driver/Src/USART.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/USART.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/USART.c
+
+CMakeFiles/Airplane.dir/Driver/Src/USART.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/USART.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/USART.c > CMakeFiles/Airplane.dir/Driver/Src/USART.i
+
+CMakeFiles/Airplane.dir/Driver/Src/USART.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/USART.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/USART.c -o CMakeFiles/Airplane.dir/Driver/Src/USART.s
+
+CMakeFiles/Airplane.dir/Driver/Src/anotc.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/anotc.obj: ../Driver/Src/anotc.c
+CMakeFiles/Airplane.dir/Driver/Src/anotc.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Airplane.dir/Driver/Src/anotc.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/anotc.obj -MF CMakeFiles/Airplane.dir/Driver/Src/anotc.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/anotc.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/anotc.c
+
+CMakeFiles/Airplane.dir/Driver/Src/anotc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/anotc.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/anotc.c > CMakeFiles/Airplane.dir/Driver/Src/anotc.i
+
+CMakeFiles/Airplane.dir/Driver/Src/anotc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/anotc.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/anotc.c -o CMakeFiles/Airplane.dir/Driver/Src/anotc.s
+
+CMakeFiles/Airplane.dir/Driver/Src/attitude.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/attitude.obj: ../Driver/Src/attitude.c
+CMakeFiles/Airplane.dir/Driver/Src/attitude.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Airplane.dir/Driver/Src/attitude.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/attitude.obj -MF CMakeFiles/Airplane.dir/Driver/Src/attitude.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/attitude.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/attitude.c
+
+CMakeFiles/Airplane.dir/Driver/Src/attitude.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/attitude.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/attitude.c > CMakeFiles/Airplane.dir/Driver/Src/attitude.i
+
+CMakeFiles/Airplane.dir/Driver/Src/attitude.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/attitude.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/attitude.c -o CMakeFiles/Airplane.dir/Driver/Src/attitude.s
+
+CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.obj: ../Driver/Src/gaussnewton.c
+CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.obj -MF CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/gaussnewton.c
+
+CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/gaussnewton.c > CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.i
+
+CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/gaussnewton.c -o CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.s
+
+CMakeFiles/Airplane.dir/Driver/Src/madgwick.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/madgwick.obj: ../Driver/Src/madgwick.c
+CMakeFiles/Airplane.dir/Driver/Src/madgwick.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Airplane.dir/Driver/Src/madgwick.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/madgwick.obj -MF CMakeFiles/Airplane.dir/Driver/Src/madgwick.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/madgwick.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/madgwick.c
+
+CMakeFiles/Airplane.dir/Driver/Src/madgwick.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/madgwick.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/madgwick.c > CMakeFiles/Airplane.dir/Driver/Src/madgwick.i
+
+CMakeFiles/Airplane.dir/Driver/Src/madgwick.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/madgwick.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/madgwick.c -o CMakeFiles/Airplane.dir/Driver/Src/madgwick.s
+
+CMakeFiles/Airplane.dir/Driver/Src/motor.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/motor.obj: ../Driver/Src/motor.c
+CMakeFiles/Airplane.dir/Driver/Src/motor.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Airplane.dir/Driver/Src/motor.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/motor.obj -MF CMakeFiles/Airplane.dir/Driver/Src/motor.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/motor.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/motor.c
+
+CMakeFiles/Airplane.dir/Driver/Src/motor.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/motor.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/motor.c > CMakeFiles/Airplane.dir/Driver/Src/motor.i
+
+CMakeFiles/Airplane.dir/Driver/Src/motor.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/motor.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/motor.c -o CMakeFiles/Airplane.dir/Driver/Src/motor.s
+
+CMakeFiles/Airplane.dir/Driver/Src/myiic.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/myiic.obj: ../Driver/Src/myiic.c
+CMakeFiles/Airplane.dir/Driver/Src/myiic.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Airplane.dir/Driver/Src/myiic.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/myiic.obj -MF CMakeFiles/Airplane.dir/Driver/Src/myiic.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/myiic.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/myiic.c
+
+CMakeFiles/Airplane.dir/Driver/Src/myiic.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/myiic.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/myiic.c > CMakeFiles/Airplane.dir/Driver/Src/myiic.i
+
+CMakeFiles/Airplane.dir/Driver/Src/myiic.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/myiic.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/myiic.c -o CMakeFiles/Airplane.dir/Driver/Src/myiic.s
+
+CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.obj: ../Driver/Src/mymadgwick.c
+CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.obj -MF CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/mymadgwick.c
+
+CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/mymadgwick.c > CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.i
+
+CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/mymadgwick.c -o CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.s
+
+CMakeFiles/Airplane.dir/Driver/Src/pid.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/Driver/Src/pid.obj: ../Driver/Src/pid.c
+CMakeFiles/Airplane.dir/Driver/Src/pid.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Airplane.dir/Driver/Src/pid.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/Driver/Src/pid.obj -MF CMakeFiles/Airplane.dir/Driver/Src/pid.obj.d -o CMakeFiles/Airplane.dir/Driver/Src/pid.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/pid.c
+
+CMakeFiles/Airplane.dir/Driver/Src/pid.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/Driver/Src/pid.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/pid.c > CMakeFiles/Airplane.dir/Driver/Src/pid.i
+
+CMakeFiles/Airplane.dir/Driver/Src/pid.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/Driver/Src/pid.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/Driver/Src/pid.c -o CMakeFiles/Airplane.dir/Driver/Src/pid.s
+
+CMakeFiles/Airplane.dir/OS/Src/app_hooks.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/OS/Src/app_hooks.obj: ../OS/Src/app_hooks.c
+CMakeFiles/Airplane.dir/OS/Src/app_hooks.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Airplane.dir/OS/Src/app_hooks.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/app_hooks.obj -MF CMakeFiles/Airplane.dir/OS/Src/app_hooks.obj.d -o CMakeFiles/Airplane.dir/OS/Src/app_hooks.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/app_hooks.c
 
 CMakeFiles/Airplane.dir/OS/Src/app_hooks.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/app_hooks.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/app_hooks.c > CMakeFiles/Airplane.dir/OS/Src/app_hooks.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/app_hooks.c > CMakeFiles/Airplane.dir/OS/Src/app_hooks.i
 
 CMakeFiles/Airplane.dir/OS/Src/app_hooks.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/app_hooks.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/app_hooks.c -o CMakeFiles/Airplane.dir/OS/Src/app_hooks.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/app_hooks.c -o CMakeFiles/Airplane.dir/OS/Src/app_hooks.s
 
-CMakeFiles/Airplane.dir/OS/Src/os_core.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_core.o: ../OS/Src/os_core.c
-CMakeFiles/Airplane.dir/OS/Src/os_core.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_core.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_core.o -MF CMakeFiles/Airplane.dir/OS/Src/os_core.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_core.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_core.c
-
-CMakeFiles/Airplane.dir/OS/Src/os_core.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_core.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_core.c > CMakeFiles/Airplane.dir/OS/Src/os_core.i
-
-CMakeFiles/Airplane.dir/OS/Src/os_core.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_core.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_core.c -o CMakeFiles/Airplane.dir/OS/Src/os_core.s
-
-CMakeFiles/Airplane.dir/OS/Src/os_cpu.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_cpu.o: ../OS/Src/os_cpu.c
-CMakeFiles/Airplane.dir/OS/Src/os_cpu.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_cpu.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_cpu.o -MF CMakeFiles/Airplane.dir/OS/Src/os_cpu.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_cpu.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu.c
-
-CMakeFiles/Airplane.dir/OS/Src/os_cpu.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_cpu.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu.c > CMakeFiles/Airplane.dir/OS/Src/os_cpu.i
-
-CMakeFiles/Airplane.dir/OS/Src/os_cpu.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_cpu.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu.c -o CMakeFiles/Airplane.dir/OS/Src/os_cpu.s
-
-CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.o: ../OS/Src/os_cpu_c.c
-CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.o -MF CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu_c.c
+CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.obj: ../OS/Src/os_cpu_c.c
+CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.obj -MF CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.obj.d -o CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu_c.c
 
 CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu_c.c > CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu_c.c > CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.i
 
 CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu_c.c -o CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_cpu_c.c -o CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.s
 
-CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.o: ../OS/Src/os_dbg_r.c
-CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.o -MF CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_dbg_r.c
+CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.obj: ../OS/Src/os_dbg_r.c
+CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.obj -MF CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.obj.d -o CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_dbg_r.c
 
 CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_dbg_r.c > CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_dbg_r.c > CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.i
 
 CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_dbg_r.c -o CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_dbg_r.c -o CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.s
 
-CMakeFiles/Airplane.dir/OS/Src/os_flag.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_flag.o: ../OS/Src/os_flag.c
-CMakeFiles/Airplane.dir/OS/Src/os_flag.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_flag.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_flag.o -MF CMakeFiles/Airplane.dir/OS/Src/os_flag.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_flag.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_flag.c
-
-CMakeFiles/Airplane.dir/OS/Src/os_flag.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_flag.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_flag.c > CMakeFiles/Airplane.dir/OS/Src/os_flag.i
-
-CMakeFiles/Airplane.dir/OS/Src/os_flag.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_flag.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_flag.c -o CMakeFiles/Airplane.dir/OS/Src/os_flag.s
-
-CMakeFiles/Airplane.dir/OS/Src/os_mbox.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_mbox.o: ../OS/Src/os_mbox.c
-CMakeFiles/Airplane.dir/OS/Src/os_mbox.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_mbox.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_mbox.o -MF CMakeFiles/Airplane.dir/OS/Src/os_mbox.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_mbox.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mbox.c
-
-CMakeFiles/Airplane.dir/OS/Src/os_mbox.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_mbox.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mbox.c > CMakeFiles/Airplane.dir/OS/Src/os_mbox.i
-
-CMakeFiles/Airplane.dir/OS/Src/os_mbox.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_mbox.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mbox.c -o CMakeFiles/Airplane.dir/OS/Src/os_mbox.s
-
-CMakeFiles/Airplane.dir/OS/Src/os_mem.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_mem.o: ../OS/Src/os_mem.c
-CMakeFiles/Airplane.dir/OS/Src/os_mem.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_mem.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_mem.o -MF CMakeFiles/Airplane.dir/OS/Src/os_mem.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_mem.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mem.c
-
-CMakeFiles/Airplane.dir/OS/Src/os_mem.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_mem.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mem.c > CMakeFiles/Airplane.dir/OS/Src/os_mem.i
-
-CMakeFiles/Airplane.dir/OS/Src/os_mem.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_mem.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mem.c -o CMakeFiles/Airplane.dir/OS/Src/os_mem.s
-
-CMakeFiles/Airplane.dir/OS/Src/os_mutex.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_mutex.o: ../OS/Src/os_mutex.c
-CMakeFiles/Airplane.dir/OS/Src/os_mutex.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_mutex.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_mutex.o -MF CMakeFiles/Airplane.dir/OS/Src/os_mutex.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_mutex.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mutex.c
-
-CMakeFiles/Airplane.dir/OS/Src/os_mutex.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_mutex.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mutex.c > CMakeFiles/Airplane.dir/OS/Src/os_mutex.i
-
-CMakeFiles/Airplane.dir/OS/Src/os_mutex.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_mutex.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_mutex.c -o CMakeFiles/Airplane.dir/OS/Src/os_mutex.s
-
-CMakeFiles/Airplane.dir/OS/Src/os_q.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_q.o: ../OS/Src/os_q.c
-CMakeFiles/Airplane.dir/OS/Src/os_q.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_q.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_q.o -MF CMakeFiles/Airplane.dir/OS/Src/os_q.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_q.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_q.c
-
-CMakeFiles/Airplane.dir/OS/Src/os_q.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_q.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_q.c > CMakeFiles/Airplane.dir/OS/Src/os_q.i
-
-CMakeFiles/Airplane.dir/OS/Src/os_q.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_q.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_q.c -o CMakeFiles/Airplane.dir/OS/Src/os_q.s
-
-CMakeFiles/Airplane.dir/OS/Src/os_sem.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_sem.o: ../OS/Src/os_sem.c
-CMakeFiles/Airplane.dir/OS/Src/os_sem.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_sem.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_sem.o -MF CMakeFiles/Airplane.dir/OS/Src/os_sem.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_sem.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_sem.c
-
-CMakeFiles/Airplane.dir/OS/Src/os_sem.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_sem.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_sem.c > CMakeFiles/Airplane.dir/OS/Src/os_sem.i
-
-CMakeFiles/Airplane.dir/OS/Src/os_sem.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_sem.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_sem.c -o CMakeFiles/Airplane.dir/OS/Src/os_sem.s
-
-CMakeFiles/Airplane.dir/OS/Src/os_task.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_task.o: ../OS/Src/os_task.c
-CMakeFiles/Airplane.dir/OS/Src/os_task.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_task.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_task.o -MF CMakeFiles/Airplane.dir/OS/Src/os_task.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_task.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_task.c
-
-CMakeFiles/Airplane.dir/OS/Src/os_task.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_task.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_task.c > CMakeFiles/Airplane.dir/OS/Src/os_task.i
-
-CMakeFiles/Airplane.dir/OS/Src/os_task.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_task.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_task.c -o CMakeFiles/Airplane.dir/OS/Src/os_task.s
-
-CMakeFiles/Airplane.dir/OS/Src/os_time.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_time.o: ../OS/Src/os_time.c
-CMakeFiles/Airplane.dir/OS/Src/os_time.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_time.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_time.o -MF CMakeFiles/Airplane.dir/OS/Src/os_time.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_time.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_time.c
-
-CMakeFiles/Airplane.dir/OS/Src/os_time.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_time.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_time.c > CMakeFiles/Airplane.dir/OS/Src/os_time.i
-
-CMakeFiles/Airplane.dir/OS/Src/os_time.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_time.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_time.c -o CMakeFiles/Airplane.dir/OS/Src/os_time.s
-
-CMakeFiles/Airplane.dir/OS/Src/os_tmr.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/os_tmr.o: ../OS/Src/os_tmr.c
-CMakeFiles/Airplane.dir/OS/Src/os_tmr.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Airplane.dir/OS/Src/os_tmr.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/os_tmr.o -MF CMakeFiles/Airplane.dir/OS/Src/os_tmr.o.d -o CMakeFiles/Airplane.dir/OS/Src/os_tmr.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_tmr.c
-
-CMakeFiles/Airplane.dir/OS/Src/os_tmr.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/os_tmr.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_tmr.c > CMakeFiles/Airplane.dir/OS/Src/os_tmr.i
-
-CMakeFiles/Airplane.dir/OS/Src/os_tmr.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/os_tmr.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/os_tmr.c -o CMakeFiles/Airplane.dir/OS/Src/os_tmr.s
-
-CMakeFiles/Airplane.dir/OS/Src/ucos_ii.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/OS/Src/ucos_ii.o: ../OS/Src/ucos_ii.c
-CMakeFiles/Airplane.dir/OS/Src/ucos_ii.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Airplane.dir/OS/Src/ucos_ii.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/ucos_ii.o -MF CMakeFiles/Airplane.dir/OS/Src/ucos_ii.o.d -o CMakeFiles/Airplane.dir/OS/Src/ucos_ii.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/ucos_ii.c
+CMakeFiles/Airplane.dir/OS/Src/ucos_ii.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/OS/Src/ucos_ii.obj: ../OS/Src/ucos_ii.c
+CMakeFiles/Airplane.dir/OS/Src/ucos_ii.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Airplane.dir/OS/Src/ucos_ii.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/OS/Src/ucos_ii.obj -MF CMakeFiles/Airplane.dir/OS/Src/ucos_ii.obj.d -o CMakeFiles/Airplane.dir/OS/Src/ucos_ii.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/ucos_ii.c
 
 CMakeFiles/Airplane.dir/OS/Src/ucos_ii.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/OS/Src/ucos_ii.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/ucos_ii.c > CMakeFiles/Airplane.dir/OS/Src/ucos_ii.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/ucos_ii.c > CMakeFiles/Airplane.dir/OS/Src/ucos_ii.i
 
 CMakeFiles/Airplane.dir/OS/Src/ucos_ii.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/OS/Src/ucos_ii.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/ucos_ii.c -o CMakeFiles/Airplane.dir/OS/Src/ucos_ii.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/Src/ucos_ii.c -o CMakeFiles/Airplane.dir/OS/Src/ucos_ii.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.o: ../STM32F40xLib/Src/misc.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/misc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.obj: ../STM32F40xLib/Src/misc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/misc.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/misc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/misc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/misc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/misc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.o: ../STM32F40xLib/Src/stm32f4xx_adc.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_adc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.obj: ../STM32F40xLib/Src/stm32f4xx_adc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_adc.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_adc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_adc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_adc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_adc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.o: ../STM32F40xLib/Src/stm32f4xx_can.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_can.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.obj: ../STM32F40xLib/Src/stm32f4xx_can.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_can.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_can.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_can.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_can.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_can.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.o: ../STM32F40xLib/Src/stm32f4xx_cec.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cec.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.obj: ../STM32F40xLib/Src/stm32f4xx_cec.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cec.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cec.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cec.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cec.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cec.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.o: ../STM32F40xLib/Src/stm32f4xx_crc.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_crc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.obj: ../STM32F40xLib/Src/stm32f4xx_crc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_crc.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_crc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_crc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_crc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_crc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.o: ../STM32F40xLib/Src/stm32f4xx_cryp.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.obj: ../STM32F40xLib/Src/stm32f4xx_cryp.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.o: ../STM32F40xLib/Src/stm32f4xx_cryp_aes.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_aes.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.obj: ../STM32F40xLib/Src/stm32f4xx_cryp_aes.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_aes.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_aes.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_aes.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_aes.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_aes.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.o: ../STM32F40xLib/Src/stm32f4xx_cryp_des.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_des.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.obj: ../STM32F40xLib/Src/stm32f4xx_cryp_des.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_des.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_des.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_des.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_des.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_des.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.o: ../STM32F40xLib/Src/stm32f4xx_cryp_tdes.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_tdes.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj: ../STM32F40xLib/Src/stm32f4xx_cryp_tdes.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_tdes.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_tdes.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_tdes.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_tdes.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_cryp_tdes.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.o: ../STM32F40xLib/Src/stm32f4xx_dac.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dac.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.obj: ../STM32F40xLib/Src/stm32f4xx_dac.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dac.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dac.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dac.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dac.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dac.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.o: ../STM32F40xLib/Src/stm32f4xx_dbgmcu.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dbgmcu.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.obj: ../STM32F40xLib/Src/stm32f4xx_dbgmcu.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dbgmcu.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dbgmcu.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dbgmcu.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dbgmcu.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dbgmcu.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.o: ../STM32F40xLib/Src/stm32f4xx_dcmi.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dcmi.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.obj: ../STM32F40xLib/Src/stm32f4xx_dcmi.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dcmi.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dcmi.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dcmi.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dcmi.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dcmi.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.o: ../STM32F40xLib/Src/stm32f4xx_dfsdm.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dfsdm.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.obj: ../STM32F40xLib/Src/stm32f4xx_dfsdm.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dfsdm.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dfsdm.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dfsdm.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dfsdm.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dfsdm.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.o: ../STM32F40xLib/Src/stm32f4xx_dma.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.obj: ../STM32F40xLib/Src/stm32f4xx_dma.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.o: ../STM32F40xLib/Src/stm32f4xx_dma2d.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma2d.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.obj: ../STM32F40xLib/Src/stm32f4xx_dma2d.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma2d.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma2d.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma2d.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma2d.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dma2d.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.o: ../STM32F40xLib/Src/stm32f4xx_dsi.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dsi.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.obj: ../STM32F40xLib/Src/stm32f4xx_dsi.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dsi.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dsi.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dsi.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dsi.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_dsi.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.o: ../STM32F40xLib/Src/stm32f4xx_exti.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_exti.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.obj: ../STM32F40xLib/Src/stm32f4xx_exti.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_exti.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_exti.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_exti.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_exti.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_exti.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.o: ../STM32F40xLib/Src/stm32f4xx_flash.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.obj: ../STM32F40xLib/Src/stm32f4xx_flash.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o: ../STM32F40xLib/Src/stm32f4xx_flash_ramfunc.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj: ../STM32F40xLib/Src/stm32f4xx_flash_ramfunc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.o: ../STM32F40xLib/Src/stm32f4xx_fmc.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmc.c
-
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.i
-
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.s
-
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.o: ../STM32F40xLib/Src/stm32f4xx_fmpi2c.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmpi2c.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.obj: ../STM32F40xLib/Src/stm32f4xx_fmpi2c.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmpi2c.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmpi2c.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmpi2c.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmpi2c.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fmpi2c.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.o: ../STM32F40xLib/Src/stm32f4xx_fsmc.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fsmc.c
-
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fsmc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.i
-
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_fsmc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.s
-
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.o: ../STM32F40xLib/Src/stm32f4xx_gpio.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_gpio.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.obj: ../STM32F40xLib/Src/stm32f4xx_gpio.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_gpio.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_gpio.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_gpio.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_gpio.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_gpio.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.o: ../STM32F40xLib/Src/stm32f4xx_hash.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.obj: ../STM32F40xLib/Src/stm32f4xx_hash.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.o: ../STM32F40xLib/Src/stm32f4xx_hash_md5.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_md5.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.obj: ../STM32F40xLib/Src/stm32f4xx_hash_md5.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_md5.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_md5.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_md5.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_md5.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_md5.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.o: ../STM32F40xLib/Src/stm32f4xx_hash_sha1.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_sha1.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.obj: ../STM32F40xLib/Src/stm32f4xx_hash_sha1.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_sha1.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_sha1.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_sha1.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_sha1.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_hash_sha1.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.o: ../STM32F40xLib/Src/stm32f4xx_i2c.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_i2c.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.obj: ../STM32F40xLib/Src/stm32f4xx_i2c.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_i2c.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_i2c.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_i2c.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_i2c.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_i2c.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.o: ../STM32F40xLib/Src/stm32f4xx_it.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_it.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.obj: ../STM32F40xLib/Src/stm32f4xx_it.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_it.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_it.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_it.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_it.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_it.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.o: ../STM32F40xLib/Src/stm32f4xx_iwdg.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_iwdg.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.obj: ../STM32F40xLib/Src/stm32f4xx_iwdg.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_iwdg.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_iwdg.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_iwdg.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_iwdg.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_iwdg.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.o: ../STM32F40xLib/Src/stm32f4xx_lptim.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_lptim.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.obj: ../STM32F40xLib/Src/stm32f4xx_lptim.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_lptim.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_lptim.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_lptim.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_lptim.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_lptim.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.o: ../STM32F40xLib/Src/stm32f4xx_ltdc.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_ltdc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.obj: ../STM32F40xLib/Src/stm32f4xx_ltdc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_ltdc.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_ltdc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_ltdc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_ltdc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_ltdc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.o: ../STM32F40xLib/Src/stm32f4xx_pwr.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_pwr.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.obj: ../STM32F40xLib/Src/stm32f4xx_pwr.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_pwr.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_pwr.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_pwr.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_pwr.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_pwr.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.o: ../STM32F40xLib/Src/stm32f4xx_qspi.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_qspi.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.obj: ../STM32F40xLib/Src/stm32f4xx_qspi.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_qspi.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_qspi.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_qspi.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_qspi.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_qspi.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.o: ../STM32F40xLib/Src/stm32f4xx_rcc.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rcc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.obj: ../STM32F40xLib/Src/stm32f4xx_rcc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rcc.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rcc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rcc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rcc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rcc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.o: ../STM32F40xLib/Src/stm32f4xx_rng.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rng.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.obj: ../STM32F40xLib/Src/stm32f4xx_rng.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rng.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rng.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rng.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rng.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rng.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.o: ../STM32F40xLib/Src/stm32f4xx_rtc.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rtc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.obj: ../STM32F40xLib/Src/stm32f4xx_rtc.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rtc.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rtc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rtc.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rtc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_rtc.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.o: ../STM32F40xLib/Src/stm32f4xx_sai.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sai.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.obj: ../STM32F40xLib/Src/stm32f4xx_sai.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sai.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sai.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sai.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sai.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sai.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.o: ../STM32F40xLib/Src/stm32f4xx_sdio.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sdio.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.obj: ../STM32F40xLib/Src/stm32f4xx_sdio.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sdio.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sdio.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sdio.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sdio.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_sdio.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.o: ../STM32F40xLib/Src/stm32f4xx_spdifrx.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spdifrx.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.obj: ../STM32F40xLib/Src/stm32f4xx_spdifrx.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spdifrx.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spdifrx.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spdifrx.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spdifrx.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spdifrx.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.o: ../STM32F40xLib/Src/stm32f4xx_spi.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spi.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.obj: ../STM32F40xLib/Src/stm32f4xx_spi.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spi.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spi.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spi.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spi.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_spi.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.o: ../STM32F40xLib/Src/stm32f4xx_syscfg.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_syscfg.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.obj: ../STM32F40xLib/Src/stm32f4xx_syscfg.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_syscfg.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_syscfg.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_syscfg.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_syscfg.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_syscfg.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.o: ../STM32F40xLib/Src/stm32f4xx_tim.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_tim.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.obj: ../STM32F40xLib/Src/stm32f4xx_tim.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_tim.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_tim.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_tim.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_tim.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_tim.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.o: ../STM32F40xLib/Src/stm32f4xx_usart.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_usart.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.obj: ../STM32F40xLib/Src/stm32f4xx_usart.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_usart.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_usart.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_usart.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_usart.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_usart.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.o: ../STM32F40xLib/Src/stm32f4xx_wwdg.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_wwdg.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.obj: ../STM32F40xLib/Src/stm32f4xx_wwdg.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_wwdg.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_wwdg.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_wwdg.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_wwdg.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/stm32f4xx_wwdg.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.s
 
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.o: ../STM32F40xLib/Src/system_stm32f4xx.c
-CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.o -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.o.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/system_stm32f4xx.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.obj: ../STM32F40xLib/Src/system_stm32f4xx.c
+CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.obj -MF CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.obj.d -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/system_stm32f4xx.c
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/system_stm32f4xx.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/system_stm32f4xx.c > CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.i
 
 CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/system_stm32f4xx.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/STM32F40xLib/Src/system_stm32f4xx.c -o CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.s
 
-CMakeFiles/Airplane.dir/USR/main.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/USR/main.o: ../USR/main.c
-CMakeFiles/Airplane.dir/USR/main.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Airplane.dir/USR/main.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/USR/main.o -MF CMakeFiles/Airplane.dir/USR/main.o.d -o CMakeFiles/Airplane.dir/USR/main.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/main.c
+CMakeFiles/Airplane.dir/USR/main.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/USR/main.obj: ../USR/main.c
+CMakeFiles/Airplane.dir/USR/main.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Airplane.dir/USR/main.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/USR/main.obj -MF CMakeFiles/Airplane.dir/USR/main.obj.d -o CMakeFiles/Airplane.dir/USR/main.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/main.c
 
 CMakeFiles/Airplane.dir/USR/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/USR/main.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/main.c > CMakeFiles/Airplane.dir/USR/main.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/main.c > CMakeFiles/Airplane.dir/USR/main.i
 
 CMakeFiles/Airplane.dir/USR/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/USR/main.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/main.c -o CMakeFiles/Airplane.dir/USR/main.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/main.c -o CMakeFiles/Airplane.dir/USR/main.s
 
-CMakeFiles/Airplane.dir/USR/mutex.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/USR/mutex.o: ../USR/mutex.c
-CMakeFiles/Airplane.dir/USR/mutex.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Airplane.dir/USR/mutex.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/USR/mutex.o -MF CMakeFiles/Airplane.dir/USR/mutex.o.d -o CMakeFiles/Airplane.dir/USR/mutex.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/mutex.c
+CMakeFiles/Airplane.dir/USR/mutex.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/USR/mutex.obj: ../USR/mutex.c
+CMakeFiles/Airplane.dir/USR/mutex.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Airplane.dir/USR/mutex.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/USR/mutex.obj -MF CMakeFiles/Airplane.dir/USR/mutex.obj.d -o CMakeFiles/Airplane.dir/USR/mutex.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/mutex.c
 
 CMakeFiles/Airplane.dir/USR/mutex.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/USR/mutex.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/mutex.c > CMakeFiles/Airplane.dir/USR/mutex.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/mutex.c > CMakeFiles/Airplane.dir/USR/mutex.i
 
 CMakeFiles/Airplane.dir/USR/mutex.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/USR/mutex.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/mutex.c -o CMakeFiles/Airplane.dir/USR/mutex.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/mutex.c -o CMakeFiles/Airplane.dir/USR/mutex.s
 
-CMakeFiles/Airplane.dir/USR/task.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/USR/task.o: ../USR/task.c
-CMakeFiles/Airplane.dir/USR/task.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Airplane.dir/USR/task.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/USR/task.o -MF CMakeFiles/Airplane.dir/USR/task.o.d -o CMakeFiles/Airplane.dir/USR/task.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/task.c
+CMakeFiles/Airplane.dir/USR/task.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/USR/task.obj: ../USR/task.c
+CMakeFiles/Airplane.dir/USR/task.obj: CMakeFiles/Airplane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Airplane.dir/USR/task.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/USR/task.obj -MF CMakeFiles/Airplane.dir/USR/task.obj.d -o CMakeFiles/Airplane.dir/USR/task.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/task.c
 
 CMakeFiles/Airplane.dir/USR/task.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/USR/task.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/task.c > CMakeFiles/Airplane.dir/USR/task.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/task.c > CMakeFiles/Airplane.dir/USR/task.i
 
 CMakeFiles/Airplane.dir/USR/task.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/USR/task.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/task.c -o CMakeFiles/Airplane.dir/USR/task.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/task.c -o CMakeFiles/Airplane.dir/USR/task.s
 
-CMakeFiles/Airplane.dir/USR/test.o: CMakeFiles/Airplane.dir/flags.make
-CMakeFiles/Airplane.dir/USR/test.o: ../USR/test.c
-CMakeFiles/Airplane.dir/USR/test.o: CMakeFiles/Airplane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Airplane.dir/USR/test.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Airplane.dir/USR/test.o -MF CMakeFiles/Airplane.dir/USR/test.o.d -o CMakeFiles/Airplane.dir/USR/test.o -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/test.c
+CMakeFiles/Airplane.dir/startup_stm32f401xe.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/startup_stm32f401xe.obj: ../startup_stm32f401xe.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building ASM object CMakeFiles/Airplane.dir/startup_stm32f401xe.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Airplane.dir/startup_stm32f401xe.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/startup_stm32f401xe.s
 
-CMakeFiles/Airplane.dir/USR/test.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Airplane.dir/USR/test.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/test.c > CMakeFiles/Airplane.dir/USR/test.i
+CMakeFiles/Airplane.dir/startup_stm32f401xe.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Airplane.dir/startup_stm32f401xe.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/startup_stm32f401xe.s > CMakeFiles/Airplane.dir/startup_stm32f401xe.i
 
-CMakeFiles/Airplane.dir/USR/test.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Airplane.dir/USR/test.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/USR/test.c -o CMakeFiles/Airplane.dir/USR/test.s
+CMakeFiles/Airplane.dir/startup_stm32f401xe.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Airplane.dir/startup_stm32f401xe.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/startup_stm32f401xe.s -o CMakeFiles/Airplane.dir/startup_stm32f401xe.s
+
+CMakeFiles/Airplane.dir/OS/os_cpu_a.obj: CMakeFiles/Airplane.dir/flags.make
+CMakeFiles/Airplane.dir/OS/os_cpu_a.obj: ../OS/os_cpu_a.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building ASM object CMakeFiles/Airplane.dir/OS/os_cpu_a.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Airplane.dir/OS/os_cpu_a.obj -c /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/os_cpu_a.S
+
+CMakeFiles/Airplane.dir/OS/os_cpu_a.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Airplane.dir/OS/os_cpu_a.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/os_cpu_a.S > CMakeFiles/Airplane.dir/OS/os_cpu_a.i
+
+CMakeFiles/Airplane.dir/OS/os_cpu_a.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Airplane.dir/OS/os_cpu_a.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/os_cpu_a.S -o CMakeFiles/Airplane.dir/OS/os_cpu_a.s
 
 # Object files for target Airplane
 Airplane_OBJECTS = \
-"CMakeFiles/Airplane.dir/OS/Src/app_hooks.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_core.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_cpu.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_flag.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_mbox.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_mem.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_mutex.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_q.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_sem.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_task.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_time.o" \
-"CMakeFiles/Airplane.dir/OS/Src/os_tmr.o" \
-"CMakeFiles/Airplane.dir/OS/Src/ucos_ii.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.o" \
-"CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.o" \
-"CMakeFiles/Airplane.dir/USR/main.o" \
-"CMakeFiles/Airplane.dir/USR/mutex.o" \
-"CMakeFiles/Airplane.dir/USR/task.o" \
-"CMakeFiles/Airplane.dir/USR/test.o"
+"CMakeFiles/Airplane.dir/Driver/Src/Delay.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/Led.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/MPU6050.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/OLED.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/PWM.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/Timer.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/USART.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/anotc.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/attitude.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/madgwick.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/motor.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/myiic.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.obj" \
+"CMakeFiles/Airplane.dir/Driver/Src/pid.obj" \
+"CMakeFiles/Airplane.dir/OS/Src/app_hooks.obj" \
+"CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.obj" \
+"CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.obj" \
+"CMakeFiles/Airplane.dir/OS/Src/ucos_ii.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.obj" \
+"CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.obj" \
+"CMakeFiles/Airplane.dir/USR/main.obj" \
+"CMakeFiles/Airplane.dir/USR/mutex.obj" \
+"CMakeFiles/Airplane.dir/USR/task.obj" \
+"CMakeFiles/Airplane.dir/startup_stm32f401xe.obj" \
+"CMakeFiles/Airplane.dir/OS/os_cpu_a.obj"
 
 # External object files for target Airplane
 Airplane_EXTERNAL_OBJECTS =
 
-Airplane: CMakeFiles/Airplane.dir/OS/Src/app_hooks.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_core.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_cpu.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_flag.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_mbox.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_mem.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_mutex.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_q.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_sem.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_task.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_time.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/os_tmr.o
-Airplane: CMakeFiles/Airplane.dir/OS/Src/ucos_ii.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmc.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fsmc.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.o
-Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.o
-Airplane: CMakeFiles/Airplane.dir/USR/main.o
-Airplane: CMakeFiles/Airplane.dir/USR/mutex.o
-Airplane: CMakeFiles/Airplane.dir/USR/task.o
-Airplane: CMakeFiles/Airplane.dir/USR/test.o
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/Delay.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/HMC5883L.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/Led.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/MPU6050.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/OLED.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/PWM.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/Timer.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/USART.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/anotc.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/attitude.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/gaussnewton.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/madgwick.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/motor.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/myiic.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/mymadgwick.obj
+Airplane: CMakeFiles/Airplane.dir/Driver/Src/pid.obj
+Airplane: CMakeFiles/Airplane.dir/OS/Src/app_hooks.obj
+Airplane: CMakeFiles/Airplane.dir/OS/Src/os_cpu_c.obj
+Airplane: CMakeFiles/Airplane.dir/OS/Src/os_dbg_r.obj
+Airplane: CMakeFiles/Airplane.dir/OS/Src/ucos_ii.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/misc.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_adc.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_can.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cec.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_crc.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_aes.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_des.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_cryp_tdes.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dac.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dbgmcu.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dcmi.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dfsdm.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dma2d.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_dsi.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_exti.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_flash_ramfunc.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_fmpi2c.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_gpio.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_md5.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_hash_sha1.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_i2c.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_it.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_iwdg.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_lptim.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_ltdc.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_pwr.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_qspi.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rcc.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rng.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_rtc.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sai.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_sdio.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spdifrx.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_spi.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_syscfg.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_tim.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_usart.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/stm32f4xx_wwdg.obj
+Airplane: CMakeFiles/Airplane.dir/STM32F40xLib/Src/system_stm32f4xx.obj
+Airplane: CMakeFiles/Airplane.dir/USR/main.obj
+Airplane: CMakeFiles/Airplane.dir/USR/mutex.obj
+Airplane: CMakeFiles/Airplane.dir/USR/task.obj
+Airplane: CMakeFiles/Airplane.dir/startup_stm32f401xe.obj
+Airplane: CMakeFiles/Airplane.dir/OS/os_cpu_a.obj
 Airplane: CMakeFiles/Airplane.dir/build.make
 Airplane: CMakeFiles/Airplane.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Linking C executable Airplane"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Linking C executable Airplane"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Airplane.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating HEX and BIN files"
-	/usr/bin/objcopy -O ihex Airplane Airplane.hex
-	/usr/bin/objcopy -O binary Airplane Airplane.bin
+	arm-none-eabi-objcopy -O ihex Airplane Airplane.hex
+	arm-none-eabi-objcopy -O binary Airplane Airplane.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/Airplane.dir/build: Airplane

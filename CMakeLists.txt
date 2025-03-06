@@ -2,7 +2,7 @@ if (POLICY CMP0048)
   cmake_policy(SET CMP0048 NEW)
 endif (POLICY CMP0048)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-project(Airplane VERSION 0.1.0 LANGUAGES C) # CMake version
+project(Airplane VERSION 0.1.0 LANGUAGES C ASM) # CMake version
 set(CMAKE_C_STANDARD 99) # C standard
 
 add_compile_options(-Wall -Wextra -pedantic) # Compiler options
@@ -21,16 +21,20 @@ include_directories(STM32F40xLib/Inc)
 include_directories(USR)
 # 添加源文件
 file(GLOB_RECURSE SOURCES
-    OS/Src/*.c
-    startup_stm32f401xe.s
-    OS/*.s
-    OS/*.asm
-    Drivers/Src/*.c
+    OS/Src/ucos_ii.c
+    OS/Src/os_cpu_c.c
+    OS/Src/app_hooks.c
+    OS/Src/os_dbg_r.c
+    Driver/Src/*.c
     STM32F40xLib/Src/*.c
     USR/*.c
 )
-add_executable(${PROJECT_NAME} ${SOURCES}) # Add executable
 
+add_executable(${PROJECT_NAME} ${SOURCES}) # Add executable
+add_executable(${PROJECT_NAME} 
+    startup_stm32f401xe.s
+    OS/os_cpu_a.S
+) # Add executable
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
     COMMAND ${CMAKE_OBJCOPY} -O ihex ${PROJECT_NAME} ${PROJECT_NAME}.hex
     COMMAND ${CMAKE_OBJCOPY} -O binary ${PROJECT_NAME} ${PROJECT_NAME}.bin

@@ -1,1 +1,0 @@
-/usr/bin/cc  -pipe -std=c99 -rdynamic CMakeFiles/main.dir/USR/main.o -o main 

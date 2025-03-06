@@ -24,10 +24,36 @@ Airplane_IS_TOP_LEVEL:STATIC=ON
 Airplane_SOURCE_DIR:STATIC=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401
 
 //Path to a program.
-CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
+CMAKE_ADDR2LINE:FILEPATH=/usr/bin/arm-none-eabi-addr2line
 
 //Path to a program.
-CMAKE_AR:FILEPATH=/usr/bin/ar
+CMAKE_AR:FILEPATH=/usr/bin/arm-none-eabi-ar
+
+//ASM compiler
+CMAKE_ASM_COMPILER:FILEPATH=/usr/bin/arm-none-eabi-gcc
+
+//A wrapper around 'ar' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_ASM_COMPILER_AR:FILEPATH=/usr/bin/arm-none-eabi-gcc-ar
+
+//A wrapper around 'ranlib' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_ASM_COMPILER_RANLIB:FILEPATH=/usr/bin/arm-none-eabi-gcc-ranlib
+
+//Flags used by the ASM compiler during all build types.
+CMAKE_ASM_FLAGS:STRING=
+
+//Flags used by the ASM compiler during DEBUG builds.
+CMAKE_ASM_FLAGS_DEBUG:STRING=-g
+
+//Flags used by the ASM compiler during MINSIZEREL builds.
+CMAKE_ASM_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
+
+//Flags used by the ASM compiler during RELEASE builds.
+CMAKE_ASM_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
+
+//Flags used by the ASM compiler during RELWITHDEBINFO builds.
+CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //For backwards compatibility, what version of CMake commands and
 // syntax should this version of CMake try to support.
@@ -40,16 +66,13 @@ CMAKE_BUILD_TYPE:STRING=
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//C compiler
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
-
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-11
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/arm-none-eabi-gcc-ar
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-11
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/arm-none-eabi-gcc-ranlib
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -84,14 +107,8 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
-
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
-
-//Path to a program.
-CMAKE_LINKER:FILEPATH=/usr/bin/ld
 
 //Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake
@@ -117,13 +134,10 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=/usr/bin/nm
+CMAKE_NM:FILEPATH=/usr/bin/arm-none-eabi-nm
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
-
-//Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
+CMAKE_OBJDUMP:FILEPATH=/usr/bin/arm-none-eabi-objdump
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -150,10 +164,10 @@ CMAKE_PROJECT_VERSION_PATCH:STATIC=0
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
+CMAKE_RANLIB:FILEPATH=/usr/bin/arm-none-eabi-ranlib
 
 //Path to a program.
-CMAKE_READELF:FILEPATH=/usr/bin/readelf
+CMAKE_READELF:FILEPATH=/usr/bin/arm-none-eabi-readelf
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
@@ -203,10 +217,10 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=/usr/bin/strip
+CMAKE_STRIP:FILEPATH=/usr/bin/arm-none-eabi-strip
 
-//No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=cmake/toolchain.cmake
+//The CMake toolchain file
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/cmake/toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -229,6 +243,23 @@ LIBRARY_OUTPUT_PATH:PATH=
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_COMPILER
+CMAKE_ASM_COMPILER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_COMPILER_AR
+CMAKE_ASM_COMPILER_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_COMPILER_RANLIB
+CMAKE_ASM_COMPILER_RANLIB-ADVANCED:INTERNAL=1
+CMAKE_ASM_COMPILER_WORKS:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS
+CMAKE_ASM_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS_DEBUG
+CMAKE_ASM_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS_MINSIZEREL
+CMAKE_ASM_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS_RELEASE
+CMAKE_ASM_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS_RELWITHDEBINFO
+CMAKE_ASM_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build
 //Major version of cmake used to create the current loaded cache
@@ -245,8 +276,6 @@ CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
-//ADVANCED property for variable: CMAKE_C_COMPILER
-CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_AR
 CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB
@@ -275,8 +304,6 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
-CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
@@ -290,10 +317,6 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/heng/MyStudy/EmbededOS/AirplaneStm32F401
-//Install .so files without execute permission.
-CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
-//ADVANCED property for variable: CMAKE_LINKER
-CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MAKE_PROGRAM
 CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
@@ -310,8 +333,6 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
 CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
-//ADVANCED property for variable: CMAKE_OBJCOPY
-CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
 CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
 //Platform information initialized

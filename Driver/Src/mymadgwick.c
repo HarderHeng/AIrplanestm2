@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "stm32f4xx.h" // Device header
-#include "IICBySoftware.h"
+#include "myiic.h"
 #include "USART.h"
+#include "mymadgwick.h"
 #include "Delay.h"
 #include "madgwick.h"
 #include "MPU6050.h"
@@ -295,135 +296,135 @@ void madgwick_get_quaternion(madgwick_handle_t handle, quat_data_handle_t quat)
     return;
 }
 
-void madgwick_test()
-{
-    madgwick_handle_t madgwick_handle;
+// void madgwick_test()
+// {
+//     madgwick_handle_t madgwick_handle;
 
-    madgwick_cfg_t madgwick_cfg;                    // 初始化madgwick滤波器
-    madgwick_cfg.beta = MADGWICK_BETA;              // 设置beta参数（beta越大加速度计的收敛作用越大）
-    madgwick_cfg.freq = MADGWICK_SAMPLE_RATE;       // 设置采样频率
-    madgwick_handle = madgwick_init(&madgwick_cfg); // 初始化madgwick滤波器
-    nodegg_handle_t ken = (nodegg_handle_t)calloc(1, sizeof(nodegg_t));
-    while (1)
-    {
-        get_mpu1(ken);
-        // get_mpu2(ken);
+//     madgwick_cfg_t madgwick_cfg;                    // 初始化madgwick滤波器
+//     madgwick_cfg.beta = MADGWICK_BETA;              // 设置beta参数（beta越大加速度计的收敛作用越大）
+//     madgwick_cfg.freq = MADGWICK_SAMPLE_RATE;       // 设置采样频率
+//     madgwick_handle = madgwick_init(&madgwick_cfg); // 初始化madgwick滤波器
+//     nodegg_handle_t ken = (nodegg_handle_t)calloc(1, sizeof(nodegg_t));
+//     while (1)
+//     {
+//         get_mpu1(ken);
+//         // get_mpu2(ken);
 
-        // Update_Quat9dof(madgwick_handle, ken->gx, ken->gy, ken->gz, ken->ax, ken->ay, ken->az,ken->mx,ken->my,ken->mz);
-        Update_Quat6dof(madgwick_handle, ken->gx, ken->gy, ken->gz, ken->ax, ken->ay, ken->az);
+//         // Update_Quat9dof(madgwick_handle, ken->gx, ken->gy, ken->gz, ken->ax, ken->ay, ken->az,ken->mx,ken->my,ken->mz);
+//         Update_Quat6dof(madgwick_handle, ken->gx, ken->gy, ken->gz, ken->ax, ken->ay, ken->az);
 
-        madgwick_get_quaternion(madgwick_handle, &quat_answer);
-        // float roll = 180.0 / acos(-1.0) * atan2(2 * (quat_answer.q0 * quat_answer.q1 + quat_answer.q2 * quat_answer.q3), 1 - 2 * (quat_answer.q1 * quat_answer.q1 + quat_answer.q2 * quat_answer.q2));
-        // float pitch = 180.0 / acos(-1.0) * asin(2 * (quat_answer.q0 * quat_answer.q2 - quat_answer.q3 * quat_answer.q1));
-        // float yaw = 180.0 / acos(-1.0) * atan2f(quat_answer.q0 * quat_answer.q3 + quat_answer.q1 * quat_answer.q2, 0.5f - quat_answer.q2 * quat_answer.q2 - quat_answer.q3 * quat_answer.q3);
-        // 将四元数转换为欧拉角
+//         madgwick_get_quaternion(madgwick_handle, &quat_answer);
+//         // float roll = 180.0 / acos(-1.0) * atan2(2 * (quat_answer.q0 * quat_answer.q1 + quat_answer.q2 * quat_answer.q3), 1 - 2 * (quat_answer.q1 * quat_answer.q1 + quat_answer.q2 * quat_answer.q2));
+//         // float pitch = 180.0 / acos(-1.0) * asin(2 * (quat_answer.q0 * quat_answer.q2 - quat_answer.q3 * quat_answer.q1));
+//         // float yaw = 180.0 / acos(-1.0) * atan2f(quat_answer.q0 * quat_answer.q3 + quat_answer.q1 * quat_answer.q2, 0.5f - quat_answer.q2 * quat_answer.q2 - quat_answer.q3 * quat_answer.q3);
+//         // 将四元数转换为欧拉角
 
-        // Roll (x-axis rotation)
-        float sinr_cosp = 2.0f * (quat_answer.q0 * quat_answer.q1 + quat_answer.q2 * quat_answer.q3);
-        float cosr_cosp = 1.0f - 2.0f * (quat_answer.q1 * quat_answer.q1 + quat_answer.q2 * quat_answer.q2);
-        float roll = atan2(sinr_cosp, cosr_cosp) * 180.0f / PI;
-        // Pitch (y-axis rotation)
-        float pitch = 0;
-        float sinp = 2.0f * (quat_answer.q0 * quat_answer.q2 - quat_answer.q3 * quat_answer.q1);
-        if (fabs(sinp) >= 1.0f)
-        {
-            pitch = copysign(90.0f, sinp); // 使用90度防止Pitch锁死
-        }
-        else
-        {
-            pitch = asin(sinp) * 180.0f / PI;
-        }
-        // Yaw (z-axis rotation)
-        float siny_cosp = 2.0f * (quat_answer.q0 * quat_answer.q3 + quat_answer.q1 * quat_answer.q2);
-        float cosy_cosp = 1.0f - 2.0f * (quat_answer.q2 * quat_answer.q2 + quat_answer.q3 * quat_answer.q3);
-        float yaw = atan2(siny_cosp, cosy_cosp) * 180.0f / PI;
+//         // Roll (x-axis rotation)
+//         float sinr_cosp = 2.0f * (quat_answer.q0 * quat_answer.q1 + quat_answer.q2 * quat_answer.q3);
+//         float cosr_cosp = 1.0f - 2.0f * (quat_answer.q1 * quat_answer.q1 + quat_answer.q2 * quat_answer.q2);
+//         float roll = atan2(sinr_cosp, cosr_cosp) * 180.0f / PI;
+//         // Pitch (y-axis rotation)
+//         float pitch = 0;
+//         float sinp = 2.0f * (quat_answer.q0 * quat_answer.q2 - quat_answer.q3 * quat_answer.q1);
+//         if (fabs(sinp) >= 1.0f)
+//         {
+//             pitch = copysign(90.0f, sinp); // 使用90度防止Pitch锁死
+//         }
+//         else
+//         {
+//             pitch = asin(sinp) * 180.0f / PI;
+//         }
+//         // Yaw (z-axis rotation)
+//         float siny_cosp = 2.0f * (quat_answer.q0 * quat_answer.q3 + quat_answer.q1 * quat_answer.q2);
+//         float cosy_cosp = 1.0f - 2.0f * (quat_answer.q2 * quat_answer.q2 + quat_answer.q3 * quat_answer.q3);
+//         float yaw = atan2(siny_cosp, cosy_cosp) * 180.0f / PI;
 
-        /*上位机精度为两位小数*/
-        angle_answer->roll = roll * 100;
-        angle_answer->pitch = pitch * 100;
-        angle_answer->yaw = yaw * 100;
-        // angle_answer->roll = roll;
-        // angle_answer->pitch = pitch;
-        // angle_answer->yaw = yaw;
+//         /*上位机精度为两位小数*/
+//         angle_answer->roll = roll * 100;
+//         angle_answer->pitch = pitch * 100;
+//         angle_answer->yaw = yaw * 100;
+//         // angle_answer->roll = roll;
+//         // angle_answer->pitch = pitch;
+//         // angle_answer->yaw = yaw;
 
-        /*输出数据*/
-        // MPU6050_Display();
-        // madgwick_display1(angle_answer);
-        // madgwick_display2(quat_answer);
-        madgwick_displayraw(ken);
+//         /*输出数据*/
+//         // MPU6050_Display();
+//         // madgwick_display1(angle_answer);
+//         // madgwick_display2(quat_answer);
+//         madgwick_displayraw(ken);
 
-        // Delay_ms(100);
-    }
-}
+//         // Delay_ms(100);
+//     }
+// }
 
-// USART1打印到上位机
-void madgwick_display1(angle_handle_t angle_answer_it)
-{
-    int16_t roll_send = angle_answer_it->roll;
-    int16_t pitch_send = angle_answer_it->pitch;
-    int16_t yaw_send = angle_answer_it->yaw;
+// // USART1打印到上位机
+// void madgwick_display1(angle_handle_t angle_answer_it)
+// {
+//     int16_t roll_send = angle_answer_it->roll;
+//     int16_t pitch_send = angle_answer_it->pitch;
+//     int16_t yaw_send = angle_answer_it->yaw;
 
-    // anotc_sendangle(4500, 5600, 9230);
+//     // anotc_sendangle(4500, 5600, 9230);
 
-    anotc_sendangle(roll_send, pitch_send, yaw_send);
-    /*利用字符串打印*/
-    // char roll[10];
-    // char pitch[10];
-    // char yaw[10];
-    // float_to_string(angle_answer_it->roll, roll, 2);
-    // float_to_string(angle_answer_it->pitch, pitch, 2);
-    // float_to_string(angle_answer_it->yaw, yaw, 2);
-    // USART1_printf("roll:%s", roll);
-    // USART1_printf("pitch:%s", pitch);
-    // USART1_printf("yaw:%s\n", yaw);
-}
+//     anotc_sendangle(roll_send, pitch_send, yaw_send);
+//     /*利用字符串打印*/
+//     // char roll[10];
+//     // char pitch[10];
+//     // char yaw[10];
+//     // float_to_string(angle_answer_it->roll, roll, 2);
+//     // float_to_string(angle_answer_it->pitch, pitch, 2);
+//     // float_to_string(angle_answer_it->yaw, yaw, 2);
+//     // USART1_printf("roll:%s", roll);
+//     // USART1_printf("pitch:%s", pitch);
+//     // USART1_printf("yaw:%s\n", yaw);
+// }
 
-void madgwick_display2(quat_data_t quat_data_it)
-{
-    int16_t send1 = quat_data_it.q0 * 10000;
-    int16_t send2 = quat_data_it.q1 * 10000;
-    int16_t send3 = quat_data_it.q2 * 10000;
-    int16_t send4 = quat_data_it.q3 * 10000;
+// void madgwick_display2(quat_data_t quat_data_it)
+// {
+//     int16_t send1 = quat_data_it.q0 * 10000;
+//     int16_t send2 = quat_data_it.q1 * 10000;
+//     int16_t send3 = quat_data_it.q2 * 10000;
+//     int16_t send4 = quat_data_it.q3 * 10000;
 
-    anotc_sendquat(send1, send2, send3, send4);
+//     anotc_sendquat(send1, send2, send3, send4);
 
-    /*利用字符串打印*/
-    // char send1[10];
-    // char send2[10];
-    // char send3[10];
-    // char send4[10];
-    // float_to_string(quat_data_it.q0, send1, 2);
-    // float_to_string(quat_data_it.q1, send2, 2);
-    // float_to_string(quat_data_it.q2, send3, 2);
-    // float_to_string(quat_data_it.q3, send4, 2);
-    // USART1_printf("q0:%s ", send1);
-    // USART1_printf("q1:%s ", send2);
-    // USART1_printf("q2:%s ", send3);
-    // USART1_printf("q3:%s\n", send4);
+//     /*利用字符串打印*/
+//     // char send1[10];
+//     // char send2[10];
+//     // char send3[10];
+//     // char send4[10];
+//     // float_to_string(quat_data_it.q0, send1, 2);
+//     // float_to_string(quat_data_it.q1, send2, 2);
+//     // float_to_string(quat_data_it.q2, send3, 2);
+//     // float_to_string(quat_data_it.q3, send4, 2);
+//     // USART1_printf("q0:%s ", send1);
+//     // USART1_printf("q1:%s ", send2);
+//     // USART1_printf("q2:%s ", send3);
+//     // USART1_printf("q3:%s\n", send4);
 
-    // anotc_sendquat(-7322, 0, 7322, 0);
-}
+//     // anotc_sendquat(-7322, 0, 7322, 0);
+// }
 
-void madgwick_displayraw(nodegg_handle_t it)
-{
-    char ax[10];
-    char ay[10];
-    char az[10];
-    char gx[10];
-    char gy[10];
-    char gz[10];
+// void madgwick_displayraw(nodegg_handle_t it)
+// {
+//     char ax[10];
+//     char ay[10];
+//     char az[10];
+//     char gx[10];
+//     char gy[10];
+//     char gz[10];
 
-    float_to_string(it->ax, ax, 5);
-    float_to_string(it->ay, ay, 5);
-    float_to_string(it->az, az, 5);
-    float_to_string(it->gx, gx, 5);
-    float_to_string(it->gy, gy, 5);
-    float_to_string(it->gz, gz, 5);
+//     float_to_string(it->ax, ax, 5);
+//     float_to_string(it->ay, ay, 5);
+//     float_to_string(it->az, az, 5);
+//     float_to_string(it->gx, gx, 5);
+//     float_to_string(it->gy, gy, 5);
+//     float_to_string(it->gz, gz, 5);
 
-    USART1_printf("ax:%s ", ax);
-    USART1_printf("ay:%s ", ay);
-    USART1_printf("az:%s\n", az);
-    // USART1_printf("gx:%s ", gx);
-    // USART1_printf("gy:%s ", gy);
-    // USART1_printf("gz:%s\n", gz);
-}
+//     USART1_printf("ax:%s ", ax);
+//     USART1_printf("ay:%s ", ay);
+//     USART1_printf("az:%s\n", az);
+//     // USART1_printf("gx:%s ", gx);
+//     // USART1_printf("gy:%s ", gy);
+//     // USART1_printf("gz:%s\n", gz);
+// }

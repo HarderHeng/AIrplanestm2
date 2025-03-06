@@ -1,6 +1,4 @@
 #include "myiic.h"
-#include "os_cpu.h"  //？
-#include "ucos_ii.h" //？
 #include "stm32f4xx.h"
 #include "stm32f4xx_rcc.h"  // Device header
 #include "stm32f4xx_gpio.h" // Device header

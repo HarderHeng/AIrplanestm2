@@ -13,9 +13,10 @@ set(CMAKE_LINKER ${TOOLCHAIN_PREFIX}ld) # 指定链接器
 #set(CMAKE_C_DEFS "-DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER") # 定义编译宏
 
 
-set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)  # 禁用测试编译（嵌入式系统无OS）
+#set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)  # 禁用测试编译（嵌入式系统无OS）
 
 set(MCU_FLAGS "-mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard")
 
+set(CMAKE_ASM_FLAGS "${MCU_FLAGS}")
 set(CMAKE_C_FLAGS "${MCU_FLAGS} -ffunction-sections -fdata-sections")
-set(CMAKE_EXE_LINKER_FLAGS "${MCU_FLAGS} -Wl,--gc-sections -Wl,-Map=${PROJECT_NAME}.map -T ${CMAKE_SOURCE_DIR}/STM32F401RETx_FLASH.ld")
+set(CMAKE_EXE_LINKER_FLAGS "${MCU_FLAGS} -Wl,--gc-sections -Wl,-Map=${PROJECT_NAME}.map -T ${CMAKE_SOURCE_DIR}/STM32F401RETx_FLASH.ld -specs=rdimon.specs -specs=nosys.specs")

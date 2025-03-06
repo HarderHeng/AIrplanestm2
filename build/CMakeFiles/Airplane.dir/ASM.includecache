@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/OS/os_cpu_a.S
+
+/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/startup_stm32f401xe.s
+

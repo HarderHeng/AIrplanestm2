@@ -24,7 +24,7 @@
 *********************************************************************************************************
 * For       : ARMv7-M Cortex-M
 * Mode      : Thumb-2 ISA
-* Toolchain : ARM C Compiler
+* Toolchain : GNU C Compiler
 *********************************************************************************************************
 * Note(s)   : (1) This port supports the ARM Cortex-M3, Cortex-M4 and Cortex-M7 architectures.
 *             (2) It has been tested with the following Hardware Floating Point Unit.
@@ -91,14 +91,14 @@ extern  "C" {                                    /* See Note #1.                
 #define  OS_CPU_EXCEPT_STK_SIZE      256u        /* Default exception stack size is 256 OS_STK entries */
 #endif
 
-#ifndef  __TARGET_FPU_SOFTVFP
+#if (defined(__VFP_FP__) && !defined(__SOFTFP__))
 #define  OS_CPU_ARM_FP_EN              1u
 #else
 #define  OS_CPU_ARM_FP_EN              0u
 #endif
 
 #ifndef CPU_CFG_KA_IPL_BOUNDARY
-//#error  "CPU_CFG_KA_IPL_BOUNDARY        not #define'd in 'app_cfg.h'    "   /* See Note # 1 & 2        */
+#error  "CPU_CFG_KA_IPL_BOUNDARY        not #define'd in 'app_cfg.h'    "   /* See Note # 1 & 2        */
 #else
 #if (CPU_CFG_KA_IPL_BOUNDARY == 0u)
 #error  "CPU_CFG_KA_IPL_BOUNDARY        should be > 0 "
@@ -106,7 +106,7 @@ extern  "C" {                                    /* See Note #1.                
 #endif
 
 #ifndef CPU_CFG_NVIC_PRIO_BITS
-//#error  "CPU_CFG_NVIC_PRIO_BITS         not #define'd in 'app_cfg.h'    "   /* See Note # 3            */
+#error  "CPU_CFG_NVIC_PRIO_BITS         not #define'd in 'app_cfg.h'    "   /* See Note # 3            */
 #else
 #if (CPU_CFG_KA_IPL_BOUNDARY >= (1u << CPU_CFG_NVIC_PRIO_BITS))
 #error  "CPU_CFG_KA_IPL_BOUNDARY        should not be set to higher than max programable priority level "
@@ -208,10 +208,9 @@ void       OSStartHighRdy         (void);
 void       OS_CPU_SysTickInit     (INT32U     cnts);
 void       OS_CPU_SysTickInitFreq (INT32U     cpu_freq);
 
-void       SysTick_Handler  (void);
-void       PendSV_Handler   (void);
+void       OS_CPU_SysTickHandler  (void);
+void       OS_CPU_PendSVHandler   (void);
 
-void		SysTickInit(void);
 #if (OS_CPU_ARM_FP_EN > 0u)
 void       OS_CPU_FP_Reg_Push     (OS_STK    *stkPtr);
 void       OS_CPU_FP_Reg_Pop      (OS_STK    *stkPtr);

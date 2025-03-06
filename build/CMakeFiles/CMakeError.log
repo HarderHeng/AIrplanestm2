@@ -1,0 +1,82 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: -mcpu=cortex-m4;-mthumb;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-ffunction-sections;-fdata-sections
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-pB30de/newlib-3.3.0/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/libc/stdlib/../../../../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2cb45/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2cb45.dir/build.make CMakeFiles/cmTC_2cb45.dir/build
+gmake[1]: Entering directory '/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2cb45.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections    -v -o CMakeFiles/cmTC_2cb45.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:10.3-2021.07-4 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile,aprofile CFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' DFLAGS=-frelease FCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' FFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' GCJFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro' OBJCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip SED=/bin/sed SHELL=/bin/sh BASH=/bin/bash CONFIG_SHELL=/bin/bash
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'CMakeFiles/cmTC_2cb45.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp'
+ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlibarch=armv7e-m+fp -march=armv7e-m+fp -auxbase-strip CMakeFiles/cmTC_2cb45.dir/CMakeCCompilerABI.c.obj -version -ffunction-sections -fdata-sections -o /tmp/cc517Apr.s
+GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+warning: GMP header version 6.2.1 differs from library version 6.3.0.
+warning: MPFR header version 4.1.0 differs from library version 4.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+warning: GMP header version 6.2.1 differs from library version 6.3.0.
+warning: MPFR header version 4.1.0 differs from library version 4.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4cf7574ae54eb0935abb4a8c56f8bcfe
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'CMakeFiles/cmTC_2cb45.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp'
+ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv7e-m -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_2cb45.dir/CMakeCCompilerABI.c.obj /tmp/cc517Apr.s
+GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'CMakeFiles/cmTC_2cb45.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp'
+Linking C executable cmTC_2cb45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cb45.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections  -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wl,--gc-sections -Wl,-Map=CMAKE_TRY_COMPILE.map -T /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles/CMakeTmp/STM32F401RETx_FLASH.ld -specs=rdimon.specs -specs=nosys.specs -v CMakeFiles/cmTC_2cb45.dir/CMakeCCompilerABI.c.obj -o cmTC_2cb45 
+Using built-in specs.
+Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/rdimon.specs
+rename spec link_gcc_c_sequence to rdimon_link_gcc_c_sequence
+Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:10.3-2021.07-4 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile,aprofile CFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' DFLAGS=-frelease FCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' FFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' GCJFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro' OBJCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip SED=/bin/sed SHELL=/bin/sh BASH=/bin/bash CONFIG_SHELL=/bin/bash
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-T' '/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles/CMakeTmp/STM32F401RETx_FLASH.ld' '-specs=rdimon.specs' '-specs=nosys.specs' '-v' '-o' 'cmTC_2cb45' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp'
+ /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpIwAxZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lrdimon -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -X -o cmTC_2cb45 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/rdimon-crt0.o -L/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib --gc-sections -Map=CMAKE_TRY_COMPILE.map CMakeFiles/cmTC_2cb45.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lrdimon --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o -T /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles/CMakeTmp/STM32F401RETx_FLASH.ld
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/ld: cannot open linker script file /home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles/CMakeTmp/STM32F401RETx_FLASH.ld: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_2cb45.dir/build.make:99: cmTC_2cb45] Error 1
+gmake[1]: Leaving directory '/home/heng/MyStudy/EmbededOS/AirplaneStm32F401/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2cb45/fast] Error 2
+
+
+
+

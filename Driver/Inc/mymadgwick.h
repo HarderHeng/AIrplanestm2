@@ -5,7 +5,6 @@ struct madgwick;
 struct madgwick_cfg;
 struct quat_data;
 struct nodegg;
-angle_handle_t angle_answer;
 
 typedef struct quat_data
 {
@@ -52,5 +51,6 @@ void madgwick_test();
 void madgwick_display1(angle_handle_t angle_answer_it);
 void madgwick_display2(quat_data_t quat_data_it);
 void madgwick_displayraw(nodegg_handle_t it);
+angle_handle_t angle_answer;
 
 #endif
